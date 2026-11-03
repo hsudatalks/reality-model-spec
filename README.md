@@ -1,6 +1,19 @@
 # Reality Model Specification
 
-面向模型生产者的通用制作与交付规范。文档版本 **0.1.0（2026-11-04）**；当前元数据参考为 **modelABI 1.0 静态母版输入**。本文档不包含模型文件。
+模型师共享材料、工具说明与任务模板的统一公开入口。文档版本 **0.1.1（2026-11-04）**；当前元数据参考为 **modelABI 1.0 静态母版输入**。需要公开分享的制作材料和工具从本仓库索引；资产交付仍按具体任务约定进行。
+
+## 资源、工具与模板索引
+
+| 入口 | 用途 |
+| --- | --- |
+| [官方工具与使用说明](tools/README.md) | Blender、Khronos Validator 的获取、基本用法、版本记录及本地文件校验 |
+| [模型任务模板](templates/model-task.md) | 填写制作范围、尺寸依据、权利、消费契约与交付证据 |
+| [母版制作](docs/authoring.md) | 坐标、锚点、几何、材质与可重建源 |
+| [Runtime 与 LOD](docs/runtime-and-lod.md) | 平台派生职责、等级结构、预算与能力边界 |
+| [数据驱动动画](docs/data-driven-animation.md) | 状态槽、节点映射、时间行为与输入→pose 验收表 |
+| [元数据与交付](docs/metadata-and-delivery.md) | 完整 12 键 ABI、来源权利、文件 SHA 与轻量检查 |
+| [贡献与公开范围](docs/contributing.md) | 哪些材料可以公开，提交范围与敏感信息约定 |
+| [官方格式资料](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html) | glTF 基础格式参考；更多工具资料见工具索引 |
 
 ## 从这里开始
 
