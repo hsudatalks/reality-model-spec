@@ -47,7 +47,7 @@
 - [通用冷却塔静态母版 brief](docs/briefs/hvac-cooling-tower-static.md)：原创合成视觉设计与静态部件范围，允许外发；权限仍按具体任务。
 
 - [通用 AHU 静态母版 brief](docs/briefs/hvac-ahu-static.md)：原创合成、允许据此为本项目制作；任务权限单独确认。
-- [经授权参考 GLB 发布流程](docs/reference-exports.md)：Releases 参考文件与 Library 生产资产区分；目前仅准备流程。
+- [经授权参考 GLB 发布流程](docs/reference-exports.md)：Releases 参考文件与 Library 生产资产区分；含已发布的参考清单。
 
 - [通用室内服务机器人静态母版 brief](docs/briefs/social-service-robot-static.md)：原创合成、用于总览及点击聚焦；正式 kind/状态绑定由消费方确认。
 
