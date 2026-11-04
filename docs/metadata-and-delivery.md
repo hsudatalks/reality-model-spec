@@ -2,6 +2,8 @@
 
 ## 当前消费合同：Player ModelABI 1.1（2026-11-04）
 
+作者可直接使用本公库[静态任务子集、原文摘录与完整有效JSON](static-player11-task-contract.md)，不依赖源repo raw访问。此次消费声明只用version/units/up/forward/states/drives/sockets七字段，不额外补id/kind；identity/kind由外部meta据实声明。资产版本0.1.2与ABI版本1.1分开，外部abi.version也如实1.1，旧tool兼容性待c4，不填1.0凑检查。
+
 已核对权威 [packages/types/src/model.ts](https://github.com/hsudatalks/univers-aip-lib-ts-scene-player/blob/bb7b89c42d06fef98a0ae72ccca1eb6e03eeb2ea/packages/types/src/model.ts)，固定 source commit `bb7b89c42d06fef98a0ae72ccca1eb6e03eeb2ea`。这是播放器的 GLB 顶层 `extras.modelABI` typed contract；外部 intake `meta.json` 是另一个平台输入合同，不能互相替代。下方保留的 static12 / ABI 1.0 是旧平台静态/ISO 输入参考，凑齐12键不等于播放器准入、动画可用或消费通过。
 
 当前静态声明可使用合法的空 `states`、`drives` 数组。下例须确实存在唯一命名的 `socket_kingpin` glTF 节点，节点由任务约定其 authored TRS；这只是 typed 声明示例，不是任意模型的准入实测或挂接认证：

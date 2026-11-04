@@ -6,6 +6,8 @@
 
 ## 已确认播放器类型与静态模板
 
+如源repo raw不可访问，直接读本公库[静态任务所需子集及原文摘录](static-player11-task-contract.md)；只用合法空数组，不猜非空state。
+
 权威固定来源为 [ModelABI / StateDecl / DriveDecl / SocketDecl](https://github.com/hsudatalks/univers-aip-lib-ts-scene-player/blob/bb7b89c42d06fef98a0ae72ccca1eb6e03eeb2ea/packages/types/src/model.ts)，source `bb7b89c42d06fef98a0ae72ccca1eb6e03eeb2ea`。它定义 typed GLB 声明，不等于业务状态槽协议、外部 intake meta 或平台动画派生支持。当前静态模板及 socket 示例见[元数据与交付](metadata-and-delivery.md)。
 
 静态无真实 clip 时使用 `states:[]`、未实现驱动使用 `drives:[]`；不把候选动作写成伪 state。非空 state 必需 `name`、`clip`、`loop`、`clock`（scene/entry），可选 appearance；没有 phase-source 字段。SocketDecl 只引用唯一命名 glTF node 及可选 tolerance，位置/方向由节点 authored TRS 表达，不造 ABI xyz 字段。业务输入映射、缺失/过期行为和实际动画验收仍填写下表并由消费者确认。无 ABI 静态 fallback 正在 delivery 修复，尚无 ready pin；平台对1.1输入未实测，不能写已支持。
