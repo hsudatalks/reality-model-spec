@@ -71,3 +71,5 @@
 
 - [通用滚筒输送机参数母版 brief](docs/briefs/factory-roller-conveyor-parametric.md)：仅3m/4m两组合成参数候选，任务待作者ACK、最终链契约待pin。
 - [通用双出口分选机参数母版 brief](docs/briefs/factory-sorter-parametric.md)：固定外框、两个出口间距参数集，Legion待ACK；非已实现OK/NG业务。
+
+- [通用工业边缘网关静态 brief](docs/briefs/social-edge-gateway-static.md)：原创合成静态范围，消费 kind 待定。
