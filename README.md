@@ -57,3 +57,5 @@
 - [通用充电坞静态 brief](docs/briefs/social-charging-dock-static.md)：原创合成静态范围。
 
 - [通用室内配送机器人静态 brief](docs/briefs/social-delivery-robot-static.md)：原创合成静态范围。
+
+- [通用明装风机盘管静态 brief](docs/briefs/hvac-fcu-static.md)：原创合成静态范围。
