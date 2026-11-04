@@ -1,6 +1,6 @@
 # Reality Model Specification
 
-模型师共享材料、工具说明与任务模板的统一公开入口。文档版本 **0.1.1（2026-11-04）**；当前元数据参考为 **modelABI 1.0 静态母版输入**。需要公开分享的制作材料和工具从本仓库索引；资产交付仍按具体任务约定进行。
+模型师共享材料、工具说明与任务模板的统一公开入口。文档版本 **0.1.1（2026-11-04）**；当前元数据参考区分 **Player ModelABI 1.1** 与历史平台1.0静态输入；intake11.1已发布，本机未安装执行。需要公开分享的制作材料和工具从本仓库索引；资产交付仍按具体任务约定进行。
 
 ## 资源、工具与模板索引
 
@@ -69,9 +69,15 @@
 
 - [工业设备通用 BOM brief 索引](docs/briefs/industrial-bom/INDEX.md)：24 类共 365 行，另附合成 stacker；尺寸为设计范围、参考单位未验证，动作接口为候选，非已批准消费契约。公开文档不授予母版或参考资产的额外许可。
 
-- [通用滚筒输送机参数母版 brief](docs/briefs/factory-roller-conveyor-parametric.md)：仅3m/4m两组合成参数候选，任务待作者ACK、最终链契约待pin。
-- [通用双出口分选机参数母版 brief](docs/briefs/factory-sorter-parametric.md)：固定外框、两个出口间距参数集，Legion待ACK；非已实现OK/NG业务。
+- [通用滚筒输送机参数母版 brief](docs/briefs/factory-roller-conveyor-parametric.md)：仅3m/4m两组合成参数候选，一期静态交接已完成；phase2a文档补充已作者交付待回执。
+- [通用双出口分选机参数母版 brief](docs/briefs/factory-sorter-parametric.md)：固定外框、两个出口间距参数集，一期静态交接已完成；新phase2a布局待ACK，非已实现OK/NG业务。
 
 - [通用工业边缘网关静态 brief](docs/briefs/social-edge-gateway-static.md)：原创合成静态范围，消费 kind 待定。
 
 - [通用传感节点静态母版 brief](docs/briefs/social-sensor-node-static.md)：原创合成紧凑外壳，非相机或网关，消费 kind 待确认。
+
+- [滚筒输送 phase2a 接口与动作准备](docs/briefs/factory-roller-conveyor-phase2a.md)：仅文档补充，原L3/L4不变。
+- [分选 phase2a 生产布局](docs/briefs/factory-sorter-production-layout-phase2a.md)：3×2×5m、两档S，awaiting_ack。
+- [涂布参数源 phase2](docs/briefs/coater-parametric-phase2.md)：新增W/H两组，作者本地完成、未收件。
+- [通用车辆单杆道闸静态 brief](docs/briefs/social-barrier-gate-static.md)：已作者交付待回执。
+- [通用双圆盘洗地机器人静态 brief](docs/briefs/social-floor-cleaning-robot-static.md)：已作者交付待回执。

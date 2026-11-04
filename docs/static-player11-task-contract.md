@@ -79,6 +79,6 @@ export interface ModelABI {
 
 ## 平台兼容与当前任务边界
 
-[元数据与交付](metadata-and-delivery.md)下方旧12键/ABI1.0仅历史platform静态/ISO输入口径，不能当成player1.1必填，也不能证明消费通过。当前intake/preflight是否接受此1.1及外部abi.version1.1，待c4正式声明/命令，本轮未实测；不称支持或拒绝，不让作者填1.0凑检查。无ABI静态fallback仍由delivery修复，尚无ready pin。
+[元数据与交付](metadata-and-delivery.md)下方旧12键/ABI1.0仅历史platform静态/ISO输入口径，不能当成player1.1必填，也不能证明消费通过。平台已发布intake11.1，正式1.1分派要求外部abi.version1.1对应embedded1.1，states/drives/sockets显式数组允许空；本机未安装执行，不代表资产预检通过。版本、来源及正式preflight调用见[元数据与交付](metadata-and-delivery.md)，不让作者填1.0凑检查；generic无embedded外部frame路径不是1.1 admission。无ABI静态fallback仍由delivery修复，尚无ready pin。
 
 本静态修订仅在已确认scope内本地另存，保留旧版本；不含状态动画、coupling、物理/碰撞、工程功能或LOD压缩。成包后交真实SHA给消费方按固定types准入，尚未通过。静态源格式PASS与consumer NEEDS_FIX可同时成立；taxonomy stage不改GLB/ABI，也不解除consumer问题。

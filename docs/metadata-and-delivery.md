@@ -2,7 +2,7 @@
 
 ## 当前消费合同：Player ModelABI 1.1（2026-11-04）
 
-作者可直接使用本公库[静态任务子集、原文摘录与完整有效JSON](static-player11-task-contract.md)，不依赖源repo raw访问。此次消费声明只用version/units/up/forward/states/drives/sockets七字段，不额外补id/kind；identity/kind由外部meta据实声明。资产版本0.1.2与ABI版本1.1分开，外部abi.version也如实1.1，旧tool兼容性待c4，不填1.0凑检查。
+作者可直接使用本公库[静态任务子集、原文摘录与完整有效JSON](static-player11-task-contract.md)，不依赖源repo raw访问。此次消费声明只用version/units/up/forward/states/drives/sockets七字段，不额外补id/kind；identity/kind由外部meta据实声明。资产版本0.1.2与ABI版本1.1分开，外部abi.version也如实1.1，平台 intake11.1 已发布，本机未安装执行；不填1.0凑检查。
 
 已核对权威 [packages/types/src/model.ts](https://github.com/hsudatalks/univers-aip-lib-ts-scene-player/blob/bb7b89c42d06fef98a0ae72ccca1eb6e03eeb2ea/packages/types/src/model.ts)，固定 source commit `bb7b89c42d06fef98a0ae72ccca1eb6e03eeb2ea`。这是播放器的 GLB 顶层 `extras.modelABI` typed contract；外部 intake `meta.json` 是另一个平台输入合同，不能互相替代。下方保留的 static12 / ABI 1.0 是旧平台静态/ISO 输入参考，凑齐12键不等于播放器准入、动画可用或消费通过。
 
@@ -30,7 +30,19 @@
 
 非空 `StateDecl`（26–46行）必需 `name:string`、`clip:string`、`loop:boolean`、`clock:'scene'|'entry'`；可选 `appearance` 的 `color/emissive` 为三元数值、`opacity` 为数值。不存在 `phase-source` 这个属性；PHASE 是源码注释的时间语义。非空 states 必须指向真实 clip，不能用候选能力名代替。`DriveDecl`（17–25行）为 name/node/path/axis/range/default/interp，具体业务映射与插值值仍须钉版消费合同。静态无 clip/未实现驱动时正式数组留空，未来动作候选列 README，不伪造运行语义。
 
-当前平台 intake/preflight 对上述1.1的支持声明和正式调用尚待 c4 确认，本轮未实测，不宣称接受或拒绝。旧无 ABI 的 generic 原件仍按其正式 adopt 外部声明路径保留，不自动要求每个母版改写。delivery 正修无 ABI 静态 fallback 并保留 diagnostic，尚无正式 ready pin，不能写成已发布支持。后续修改由作者另存新无损修订、同步真实资产版本/来源/新 SHA；不改原件或旧 DRAFT，也不用 retag 修改 GLB/ABI。
+平台已发布 `@univers/asset-intake@0.0.1-dev.intake11.1`，source `64911ad84464e793a41971494eeb7a4f1cc6e329`；本次只合并已返回的 mac-mini 只读文档报告，本机未安装或执行。正式 types pin 为 `bb7b89c42d06fef98a0ae72ccca1eb6e03eeb2ea`。发布文档列包 tar SHA256 `b4e1f4e59877592ebfad6ef91459989579f565e9c930ee32d9798da01d2eafa1`（未本机实核），文档 SHA256 `d07d256a7dfc22d9394617563ad5909569b8b56680041305a854680bcfecd558`（来自只读报告）。ready 不代表任何资产已通过。
+
+1.1 admission要求显式 `states`、`drives`、`sockets` 数组，允许空；外部 `abi.version=1.1` 必须对应 embedded 1.1，禁止downgrade到1.0绕过。1.0仍独立分派；generic无embedded的 explicit anchor + external frame路径保留，但不是1.1 admission。
+
+正式只预检调用（绝对路径及 validator pin由具体任务提供，本轮未运行）：
+
+```sh
+asset-intake preflight ABS_GLB --meta ABS_META --config ABS_CONFIG --gltf-validator ABS_PINNED_VALIDATOR
+```
+
+PASS仅表示预检，不是stage、Library、消费验收或激活。retag不改变bytes也不解决ABI；新source修订仍须实际收件及适用检查，不覆盖旧草稿。
+
+旧无 ABI 的 generic 原件仍按其正式 adopt 外部声明路径保留，不自动要求每个母版改写。delivery 正修无 ABI 静态 fallback 并保留 diagnostic，尚无正式 ready pin，不能写成已发布支持。后续修改由作者另存新无损修订、同步真实资产版本/来源/新 SHA；不改原件或旧 DRAFT，也不用 retag 修改 GLB/ABI。
 
 本页保留的历史参考日期 **2026-11-04**，下列12键是 **modelABI 1.0 内嵌声明及 ISO 派生输入参考**，位于 **GLB JSON 顶层 `extras.modelABI`**，不是节点 extras。它不是所有 generic-original adopt 路径的统一拒收条件；各路径以正式钉版工具合同为准。本参考不提供完整消费语义 schema。
 
@@ -75,7 +87,7 @@
 
 ## 静态 ISO 箱的最小元数据修订（历史平台1.0参考）
 
-本节保留旧平台ISO输入参考；它不能代替上方player1.1消费声明。1.1嵌入声明与外部intake meta的版本对齐及正式调用待平台确认，不将本例1.0固定值强套到新1.1修订。
+本节保留旧平台ISO输入参考；它不能代替上方player1.1消费声明。1.1嵌入声明与外部intake meta的版本对齐及正式调用见上方已发布intake11.1说明，不将本例1.0固定值强套到新1.1修订。
 
 普通静态 ISO20/40 箱可按上述事实声明进入仅存在性检查的草稿流程，无需等待未来完整吊装或动画契约。前提是作者已有底面 Y=0 的证据、该资产确实不适用轨距、此版确实没有声明挂点。不要为此重建几何、制作 LOD 或压缩母版。
 

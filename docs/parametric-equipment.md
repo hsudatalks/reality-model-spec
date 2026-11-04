@@ -28,9 +28,25 @@ GLB exposes geometry and nodes, and clips only where agreed. Process scheduling,
 
 Application inventory/contract evidence is owned by the actual consumer owner. **FACTORY-INV1 is delivered and read**: [docs/FACTORY-INV1.md at 09e58265b5a841b0e4cf26a16f45bccc27f48fc4](https://github.com/hsudatalks/univers-ext-factory/blob/09e58265b5a841b0e4cf26a16f45bccc27f48fc4/docs/FACTORY-INV1.md). It is a source inventory marked PARTIAL, not scenario acceptance or installed-package proof. The earlier roughly two-hour ETA is historical.
 
-The inventory identifies four generic ASSUMED kinds (`factory.site`, `factory.production-line`, `factory.machine`, `factory.buffer`) and seven generated state channels; example values are not declared engineering limits. The panel has no TTL/expiry decision. Missing later business keys remain unchanged in the player until a new value; no business freshness timeout or automatic stop is supplied. Native reset/default handling is separate, and text-fact validity is a separate supported path. Existing native node/clip/textSlot source contracts are listed in the inventory, but **factory business slot→node/clip mapping is absent**. Aggregate WIP is not per-cell flow; generic relation events are not formal OK/NG/rework/scrap semantics. All four proposed chain scenarios remain untested.
+At that historical pin, the inventory identifies four generic ASSUMED kinds (`factory.site`, `factory.production-line`, `factory.machine`, `factory.buffer`) and seven generated state channels; example values are not declared engineering limits. The panel has no TTL/expiry decision. Missing later business keys remain unchanged in the player until a new value; no business freshness timeout or automatic stop is supplied. Native reset/default handling is separate, and text-fact validity is a separate supported path. Existing native node/clip/textSlot source contracts are listed in the inventory, but **factory business slot→node/clip mapping was absent at that inventory pin**; the later Apps publication notice below supplies business kind/field semantics, without proving asset bindings. Aggregate WIP is not per-cell flow; generic relation events are not formal OK/NG/rework/scrap semantics. All four proposed chain scenarios remain untested.
 
-Final business definitions and G1–G10 remain pending the delivery-owned pinned `battery-chain1-spec`. Models plus platform own the requested three-family parameter masters/template parameter binding (G4) and actual runtime pins, per-LOD and node-preservation evidence (G5); apps owns generic kinds/slots and consumer runtime/evidence. Earlier master drafts do not satisfy runtime acceptance. The three families are conveyor, bare-cell inspection and sorting (OK/NG lanes); inspection first considers an existing template pending safe handoff, sorting is proposed to Legion, awaiting ACK, and the separate coater exercise adds no chain family. Actual business mappings/TTL/flow are not created by this document. Unknowns retain an owner and pending status; historical message aliases are not verified owners, threads or dependencies.
+The delivery-owned `battery-chain1-spec` is now reported pinned at **3ec1c5c1**. Models plus platform own the three-family parameter masters/template parameter binding (G4) and actual runtime pins, per-LOD and node-preservation evidence (G5). Earlier master drafts do not satisfy runtime acceptance. Conveyor, bare-cell inspection and sorting remain three families; the coater exercise adds no chain family. Static handoffs and the separately scoped phase2a work do not establish dynamic G4/G5 acceptance.
+
+## Apps publication notice: factory.11
+
+Source: Apps formal publication notice, `@univers/ext-factory@0.3.0-dev.factory.11`, reported source **cbf487d4**, inbox **c25199c8**, aligned with `battery-chain1-spec` **3ec1c5c1**. These are the supplied short pins, not invented full commit hashes. The full npm package/source was not read or independently tested for this update.
+
+| Published kind | Fields / units / declared constraints |
+| --- | --- |
+| `factory.conveyor` | `speed`: m/s, ≥0; `occupancy`: integer |
+| `factory.inspection-machine` | `cycleTime`: s, ≥0; `headStroke`: signed m |
+| `factory.sorter` | `flow`: 1/h, ≥0; `diverterAngle`: rad |
+| `factory.lane` | `occupancy`, `capacity`: integers; occupancy ≤ capacity |
+| `factory.cell` | `serial`: text; `quality`: uninspected / OK / NG |
+
+Inherited fields include `powerkW` and the state values off/running/fault. The notice specifies that `headStroke` drives the real inspection head and `diverterAngle` drives the diverter. These kind/field meanings are no longer all pending. Source-field selection, hardware limits, exact asset node bindings and runtime evidence remain unconfirmed; this table creates no wire schema, ABI binding, TTL rule or completed implementation. It does not apply the factory contract to the separate coater.
+
+Current supplements: [conveyor phase2a inventory](briefs/factory-roller-conveyor-phase2a.md), [sorter phase2a layout](briefs/factory-sorter-production-layout-phase2a.md), [coater phase2](briefs/coater-parametric-phase2.md).
 
 ## Staged manufacturing-flow acceptance
 
