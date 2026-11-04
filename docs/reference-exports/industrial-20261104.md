@@ -62,4 +62,25 @@ The manifest records source and public SHA-256, byte sizes, classification confi
 | rewinder-01 | rewinder | 0.98 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/rewinder-01.glb) |
 | slurry-mixer-07 | slurry-mixer | 0.92 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/slurry-mixer-07.glb) |
 
-17 additional exports are deferred pending embedded-image identification review.
+## Part 2 and cumulative catalog
+
+[Part 2 release](https://github.com/hsudatalks/reality-model-spec/releases/tag/industrial-reference-exports-part2-20261104T1013Z) · [Cumulative machine-readable catalog](industrial-20261104-cumulative.json) · [Part 2 manifest](industrial-20261104-part2.json)
+
+67 reference exports are now public in total (53 first release, 14 part 2). Three remain on hold: inspection-machine-07 and wrapping-machine-02 have embedded image identifiers; welding-machine-04 has an identifier and one unreviewed image. All 70 have unverified units.
+
+| Safe ID | Kind | Confidence | Download |
+| --- | --- | ---: | --- |
+| inspection-machine-04 | inspection-machine | 0.98 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/inspection-machine-04.glb) |
+| conveyor-01 | conveyor | 0.95 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/conveyor-01.glb) |
+| welding-machine-05 | welding-machine | 0.98 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/welding-machine-05.glb) |
+| welding-machine-06 | welding-machine | 0.98 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/welding-machine-06.glb) |
+| pairing-machine-03 | pairing-machine | 0.95 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/pairing-machine-03.glb) |
+| nitrogen-filling-machine-01 | nitrogen-filling-machine | 0.95 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/nitrogen-filling-machine-01.glb) |
+| baking-oven-01 | baking-oven | 0.98 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/baking-oven-01.glb) |
+| slurry-mixer-06 | slurry-mixer | 0.98 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/slurry-mixer-06.glb) |
+| coater-01 | coater | 0.87 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/coater-01.glb) |
+| coater-02 | coater | 0.87 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/coater-02.glb) |
+| drying-oven-01 | drying-oven | 0.98 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/drying-oven-01.glb) |
+| calender-slitter-02 | calender-slitter | 0.93 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/calender-slitter-02.glb) |
+| calender-slitter-03 | calender-slitter | 0.93 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/calender-slitter-03.glb) |
+| slitter-02 | slitter | 0.98 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/slitter-02.glb) |

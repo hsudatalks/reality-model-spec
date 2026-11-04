@@ -1,0 +1,2105 @@
+{
+  "schema_version": 1,
+  "distribution": "source-owner-authorized public distribution; other relicensing terms unspecified",
+  "release_urls": [
+    "https://github.com/hsudatalks/reality-model-spec/releases/tag/industrial-reference-exports-20261104T0924Z",
+    "https://github.com/hsudatalks/reality-model-spec/releases/tag/industrial-reference-exports-part2-20261104T1013Z"
+  ],
+  "released_count": 67,
+  "models": [
+    {
+      "id": "inspection-machine-01",
+      "kind": "inspection-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -5.655380192873039,
+          -1.890085104650126,
+          -2.221558063779611
+        ],
+        "max": [
+          5.271015117233958,
+          1.402573086269527,
+          4.169013608955908
+        ],
+        "dimensions": [
+          10.926395310106997,
+          3.292658190919653,
+          6.390571672735518
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "93e2b5d1632c0532dbadd1278de63cbf9ad0c377af52a1dcd36d51d8da5cd8b0",
+      "public_sha256": "c14c0eee8300ea192c30f9ec9df60c6fb3424670e1c7e6d7bb419e343a2d60a4",
+      "bytes": 11596920,
+      "unchanged_post_json_sha256": "1a4571a7f24bcff5e21e7daaaa3b71383da2e15a82b0cfb9beaefd702f666b45",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/inspection-machine-01.glb"
+    },
+    {
+      "id": "inspection-machine-02",
+      "kind": "inspection-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -6.072709560394287,
+          -0.7969095134470521,
+          -0.19003959095037537
+        ],
+        "max": [
+          0.11136436462402344,
+          2.5882336533931163,
+          5.32780270401844
+        ],
+        "dimensions": [
+          6.1840739250183105,
+          3.3851431668401686,
+          5.5178422949688155
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "5b675c0b317c09e6af6b4b08572554c327ba8fba46dd436ea036959d80c6d790",
+      "public_sha256": "54eb14a09b8593549219187304876f38a59329f6d6d3a988a0f9b5915fed7fc1",
+      "bytes": 7114016,
+      "unchanged_post_json_sha256": "932dc40558f6ed41d3dbd6929fde559016f02b452697f69f69d25671ed64610d",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/inspection-machine-02.glb"
+    },
+    {
+      "id": "wrapping-machine-01",
+      "kind": "wrapping-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -7.230031911113507,
+          -1.7405877607131433,
+          -7.211540217107561
+        ],
+        "max": [
+          9.307101318881141,
+          1.8688708136367218,
+          7.613025207576944
+        ],
+        "dimensions": [
+          16.537133229994648,
+          3.609458574349865,
+          14.824565424684504
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "9d2fd9bd8b1a38e74078680313fa6c089877b53e351a2593b2cea8c3647db518",
+      "public_sha256": "a8af9b4f5183c2bd13320b897f84c81462e43ed1a78a3288e8c09d556d05a184",
+      "bytes": 21381904,
+      "unchanged_post_json_sha256": "468c60bd527da72a679a679d767da3a505521453a5e6503ddb902161d36ad2da",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/wrapping-machine-01.glb"
+    },
+    {
+      "id": "welding-machine-01",
+      "kind": "welding-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -6.571874899203149,
+          -1.17722947791105,
+          -5.319462299347039
+        ],
+        "max": [
+          8.808120439678937,
+          2.792628901451789,
+          6.293005466461288
+        ],
+        "dimensions": [
+          15.379995338882086,
+          3.969858379362839,
+          11.612467765808328
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "a99fd126170d972f81fd52334d86582ae32162d9fb6f2ea7e027a0b3ed9e8578",
+      "public_sha256": "d35fbf20b70deadf997a1854fbc6daa6740832a1fd3ecbcb52dbbf5e63ca8fa6",
+      "bytes": 20283196,
+      "unchanged_post_json_sha256": "86cf9a4b183a9ec8a6a9b2393090c183c40acc49cbcf585b20662b01d11e0b8c",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/welding-machine-01.glb"
+    },
+    {
+      "id": "pairing-machine-01",
+      "kind": "pairing-machine",
+      "classification_confidence": 0.95,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -7.439164161682129,
+          -1.5096351468380584,
+          -1.9512071285466235
+        ],
+        "max": [
+          9.425909042358398,
+          1.850547942503972,
+          4.240325669234595
+        ],
+        "dimensions": [
+          16.865073204040527,
+          3.3601830893420304,
+          6.1915327977812185
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "efe256350d0b9c77c141606cb7ec85914fedbd71c64f4136f89f64ce2aaabe31",
+      "public_sha256": "6209e3646f158cd1ba34ef7b772042ed75b7a97f11fa122a89dcc9817eb0f577",
+      "bytes": 14791188,
+      "unchanged_post_json_sha256": "3af82b3aa4c95f731f5669521fd304f915e017001d82ba1d5fac6c258ac1e140",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/pairing-machine-01.glb"
+    },
+    {
+      "id": "pairing-machine-02",
+      "kind": "pairing-machine",
+      "classification_confidence": 0.95,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -9.720338821411133,
+          -1.8055739076811117,
+          -4.166104867826981
+        ],
+        "max": [
+          7.1447367668151855,
+          1.544032456047217,
+          2.0254277172213304
+        ],
+        "dimensions": [
+          16.86507558822632,
+          3.349606363728329,
+          6.191532585048311
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "39e092828b9a485f6ee092a920d3bd2b11b76af6cf4f7ded00ad293a982321b9",
+      "public_sha256": "f086972ae50088fc961aa2e977623bc1b09b6371dfe67d9e11c803ea278a3e09",
+      "bytes": 12328392,
+      "unchanged_post_json_sha256": "2a77c2bff377b5b14a0548f7907fdf915be85c03a74804542c52e5a416f19cf2",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/pairing-machine-02.glb"
+    },
+    {
+      "id": "hot-press-01",
+      "kind": "hot-press",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -9.192293167114258,
+          -3.0235202312469482,
+          -4.291954517364502
+        ],
+        "max": [
+          13.307706832885742,
+          0.9263057708740234,
+          5.207679271697998
+        ],
+        "dimensions": [
+          22.5,
+          3.9498260021209717,
+          9.4996337890625
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "e3bfae59a054bc641fa7176c6b756e6c830d2b0026ebbe4284ec22756091df35",
+      "public_sha256": "504359d7862e6b7d0edab9b760d1cddf7081acdc99df0bc53db01ac12ecc3b1e",
+      "bytes": 60944,
+      "unchanged_post_json_sha256": "57f2d83889c9e6cc201148fe9297375e5d260e4e210e65c6a05baee5192179a4",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/hot-press-01.glb"
+    },
+    {
+      "id": "hot-press-02",
+      "kind": "hot-press",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -9.002490997314453,
+          -3.0166051387786865,
+          -5.358076095581055
+        ],
+        "max": [
+          13.497509002685547,
+          0.9332208633422852,
+          4.141557693481445
+        ],
+        "dimensions": [
+          22.5,
+          3.9498260021209717,
+          9.4996337890625
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "22589f95ef31185cae2240fd77d23f5b8ee8a8db20f0da5e7acaf27469140beb",
+      "public_sha256": "df624047a7ee491f18f5adbd5414731683b593d446c119662f96fc89d8dfc904",
+      "bytes": 57640,
+      "unchanged_post_json_sha256": "43b01f5e4737945b17e59a45ca303597095ebc9f820c76e1aea7d68095b99c06",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/hot-press-02.glb"
+    },
+    {
+      "id": "inspection-machine-03",
+      "kind": "inspection-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -16.648093184942354,
+          -6.4348833937609635,
+          -9.295053090884005
+        ],
+        "max": [
+          11.219196413803274,
+          6.620207109702209,
+          8.27956231902458
+        ],
+        "dimensions": [
+          27.86728959874563,
+          13.055090503463173,
+          17.574615409908585
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "c64e70b7ea7b40849d8506d2da39a7c1231d980e3a92ba0131ca68e43860b6fe",
+      "public_sha256": "51f7541f6ebc36c2ba211019f65805b8f7765d0d28182e73558fea83facdb9c5",
+      "bytes": 2718220,
+      "unchanged_post_json_sha256": "2741edb63674e503a504b8ff8bcd280138d64e33c738ae14a3624323ccd4c7dd",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/inspection-machine-03.glb"
+    },
+    {
+      "id": "welding-machine-02",
+      "kind": "welding-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -8.715245407471963,
+          -3.839662390977297,
+          -8.712608916296983
+        ],
+        "max": [
+          10.808863763161225,
+          3.375340872147411,
+          10.986851185683076
+        ],
+        "dimensions": [
+          19.52410917063319,
+          7.215003263124708,
+          19.69946010198006
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "13338f574e7df0b3624bcb9efe41c8dd3da57ddc9450bba4884ed1a3e65c0a52",
+      "public_sha256": "16ec097318cd83eba59349eae2fa16aaee2aef6afa51e40aef12cc9d493ac9e6",
+      "bytes": 9899448,
+      "unchanged_post_json_sha256": "9fa90f10c082f87973c35591202e7242c9c60ac67c791030a4e6105e6705d8e5",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/welding-machine-02.glb"
+    },
+    {
+      "id": "welding-machine-03",
+      "kind": "welding-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -4.829354763031006,
+          -1.8228873049599639,
+          -4.375707932410383
+        ],
+        "max": [
+          4.570638179779053,
+          1.673661684879182,
+          5.315319398904245
+        ],
+        "dimensions": [
+          9.399992942810059,
+          3.496548989839146,
+          9.69102733131463
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "1055adc4defcbea4b199fb0be93ef66ad1bc09f59313ec0379f0b247fc099699",
+      "public_sha256": "13bf3ff1d419564cd3955c06ed09441c0e81e2b6b122292a44d5f761368e20b5",
+      "bytes": 15409496,
+      "unchanged_post_json_sha256": "d8c64240b6050648e1d99f6de1326ddd0abe35219473c8f52430a81ca0f0af3d",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/welding-machine-03.glb"
+    },
+    {
+      "id": "winder-01",
+      "kind": "winder",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -6.5,
+          -1.7410000562667847,
+          -9.740208639641423e-12
+        ],
+        "max": [
+          6.5,
+          1.2109999656677246,
+          3.0799999237060547
+        ],
+        "dimensions": [
+          13.0,
+          2.9520000219345093,
+          3.079999923715795
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "3eeb3e2a08e5e3bc69e2f7aa6103c0036d0e57c528360f6af9f3576d5af5edc8",
+      "public_sha256": "7dc0810e6d2ccb1757eed22fcec6163365594ac98861bf669063e1664f7e42fa",
+      "bytes": 242520,
+      "unchanged_post_json_sha256": "95a0932a74169c315b527bc29f95c7f3bf3f54cef489306405a4bf08059b0618",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/winder-01.glb"
+    },
+    {
+      "id": "winder-02",
+      "kind": "winder",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -6.5,
+          -1.7410000562667847,
+          -6.0880883667735475e-12
+        ],
+        "max": [
+          6.5,
+          1.2109999656677246,
+          3.0799999237060547
+        ],
+        "dimensions": [
+          13.0,
+          2.9520000219345093,
+          3.0799999237121427
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "997c6f4bab2c9162d806900f9e9c120085bf8728f90f163c0f52af5afc55c460",
+      "public_sha256": "566f4840eacba8c2e3897e76b64d8596878fd3cfc43958164beb846cc2469698",
+      "bytes": 247704,
+      "unchanged_post_json_sha256": "8ccca93161d71ce586a52c3e44002563f4663b9abbdbb6534c8ffd665234c4fe",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/winder-02.glb"
+    },
+    {
+      "id": "sorting-machine-01",
+      "kind": "sorting-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -7.837415763381593,
+          -0.7557748250678418,
+          -4.936041453081602
+        ],
+        "max": [
+          9.505899603023073,
+          2.833995440203185,
+          4.846633344145143
+        ],
+        "dimensions": [
+          17.343315366404667,
+          3.5897702652710266,
+          9.782674797226745
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "d235f9244a8034aef88e4381a8fabe19a7a28817b3d084d9e329cc629390668c",
+      "public_sha256": "fcdb9c67cbb4648be5824f91d17a29498f500e94bb588d8b63986d79287947c4",
+      "bytes": 1778300,
+      "unchanged_post_json_sha256": "f980c22362ee5129a3bcdad99a61876911a315c4a818c188f2c7de11a77dad6b",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/sorting-machine-01.glb"
+    },
+    {
+      "id": "wrapping-machine-03",
+      "kind": "wrapping-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -10.370777276801306,
+          -1.3766081641665018,
+          -3.2681880163599
+        ],
+        "max": [
+          8.693742424428129,
+          1.6024127268783765,
+          3.884938487963506
+        ],
+        "dimensions": [
+          19.064519701229436,
+          2.979020891044878,
+          7.1531265043234065
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "b77cb1e745f57cff4e6c7e6b1e63d5645fef8c71902f777bcb5f04abb3f42a4c",
+      "public_sha256": "4fdb68b63eeec0cf089eedc994a148792f1edd9b576dd34c7a36470b251266bb",
+      "bytes": 5089048,
+      "unchanged_post_json_sha256": "4cb4416ce71d712cc6fec1ed37cbc98f67d10ab298a262033c343c3cb2869064",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/wrapping-machine-03.glb"
+    },
+    {
+      "id": "welding-machine-07",
+      "kind": "welding-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -7.281189143668791,
+          -0.8669213056564331,
+          -5.959495090144624
+        ],
+        "max": [
+          3.4755993944720407,
+          3.111310839653015,
+          -1.1027547669245314
+        ],
+        "dimensions": [
+          10.756788538140832,
+          3.9782321453094482,
+          4.856740323220093
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "97b3aeb47bd3f958072762d8b86f6163268ebb8ae00ae8c708145ff3d25fc786",
+      "public_sha256": "89574543b9ffbfb76a54c43f5d000a5c8de89debe3de58dcf0741d702cf265af",
+      "bytes": 10659408,
+      "unchanged_post_json_sha256": "240cc17b17c5c1e3982f8f26dd74ed98f8fa63256dc9abc409c190cf49e3f951",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/welding-machine-07.glb"
+    },
+    {
+      "id": "nitrogen-filling-machine-02",
+      "kind": "nitrogen-filling-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -5.697116173760833,
+          -6.03391084125505,
+          -6.3709725375618405
+        ],
+        "max": [
+          4.981488111339331,
+          7.115115462468793,
+          10.367217409122247
+        ],
+        "dimensions": [
+          10.678604285100164,
+          13.149026303723844,
+          16.738189946684088
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "4d9034a6bd12da69756ddff6c5c123d55ee8491d53af7c1546b3d453a597ac5f",
+      "public_sha256": "f8bb498ec5f536bfed4df22972907ac2749a001e45aa6c8726999a1adfc1b546",
+      "bytes": 9122568,
+      "unchanged_post_json_sha256": "6ee28e23e46e5464030a6aeaa1d7fd654c1096846630edd958e994055472b9f8",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/nitrogen-filling-machine-02.glb"
+    },
+    {
+      "id": "formation-aging-rack-01",
+      "kind": "formation-aging-rack",
+      "classification_confidence": 0.85,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -2.0106899738311768,
+          -1.1390613317489624,
+          -5.968262672424316
+        ],
+        "max": [
+          2.227358102798462,
+          2.038958787918091,
+          4.980435371398926
+        ],
+        "dimensions": [
+          4.238048076629639,
+          3.1780201196670532,
+          10.948698043823242
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "86f2199b13ef64392d15bce5b1913047c534294dff95a1c41e96879877bf5024",
+      "public_sha256": "ea5518ee9ef751c8d96e709787f6840609ccb2c03f54b41918182f57cf0eb23a",
+      "bytes": 4658840,
+      "unchanged_post_json_sha256": "2ccc6c6a9fc5f0dc303adc85e0764926d4ba6daabed40747d35f018c25e43b1f",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/formation-aging-rack-01.glb"
+    },
+    {
+      "id": "formation-aging-rack-02",
+      "kind": "formation-aging-rack",
+      "classification_confidence": 0.85,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -2.224886962307815,
+          -1.2545398147635902,
+          -4.726127594928208
+        ],
+        "max": [
+          2.0131607454587575,
+          2.0142734174962906,
+          6.222666594720529
+        ],
+        "dimensions": [
+          4.238047707766572,
+          3.268813232259881,
+          10.948794189648737
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "6928c0753e42dc76a061439fd8bff8ed1aeea405d933a89ce5a895011395a097",
+      "public_sha256": "2f765c309243fc9a4e33d1cd9f1edb15a533260824c6ec5ceaf665e38e41c816",
+      "bytes": 5139100,
+      "unchanged_post_json_sha256": "0503269c5c182efea22235f5f14097e999b914c59412d581adf3c0b71fe2a02a",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/formation-aging-rack-02.glb"
+    },
+    {
+      "id": "formation-aging-rack-03",
+      "kind": "formation-aging-rack",
+      "classification_confidence": 0.95,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -5.416236531917458,
+          -1.4238451372793715,
+          -1.8735690116882324
+        ],
+        "max": [
+          5.253765526559903,
+          2.6590615413685823,
+          1.826737880706787
+        ],
+        "dimensions": [
+          10.670002058477362,
+          4.082906678647953,
+          3.7003068923950195
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "46fd3ca6e4e86011b2a2b54a247c7996c1ca8b649b9808717af7c9e0b61dded0",
+      "public_sha256": "2be25ce6998996acd0745e2f879fefd32fb93866019ca529bc547b6d4257cd11",
+      "bytes": 5221048,
+      "unchanged_post_json_sha256": "1e423890e22d57808f3c9be9a6598e4beaf621efbce9ec35747f4c336db03743",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/formation-aging-rack-03.glb"
+    },
+    {
+      "id": "inspection-machine-05",
+      "kind": "inspection-machine",
+      "classification_confidence": 0.93,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -1.5269713401794434,
+          -1.7528197765350342,
+          -0.9144690036773682
+        ],
+        "max": [
+          0.609563410282135,
+          1.5472915172576904,
+          0.973328709602356
+        ],
+        "dimensions": [
+          2.1365347504615784,
+          3.3001112937927246,
+          1.8877977132797241
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "0c49cfb98b4c8b46de7f93efa4f5b30ecdc125f7a81552439f1c0192095ef426",
+      "public_sha256": "80a42c06e840299b1b8fccd0d3c0ee4222791cf436e69f924d6495b9c8f12bb2",
+      "bytes": 1737688,
+      "unchanged_post_json_sha256": "c06e561f3b7cad6baa91e2ec0649392019f1d1375141a2928733583aa58286aa",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/inspection-machine-05.glb"
+    },
+    {
+      "id": "inspection-machine-06",
+      "kind": "inspection-machine",
+      "classification_confidence": 0.93,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.7014509178850548,
+          -0.8132717648710326,
+          -1.1375304292190471
+        ],
+        "max": [
+          1.5385748683251967,
+          1.6178364838293324,
+          0.8015147914151636
+        ],
+        "dimensions": [
+          2.2400257862102517,
+          2.4311082487003652,
+          1.9390452206342106
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "94367a82cf019eb99db74532c0c5687f7fe5e5ccbc807c963947357c14f71ab3",
+      "public_sha256": "e9558479190725df91a71f42fac5ec59ed480f0c7adcb8bfc5994b149d433e35",
+      "bytes": 1134136,
+      "unchanged_post_json_sha256": "89c5ed9150444afad569609a27e0aa667535861baf396a10f35b17fe62469c6a",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/inspection-machine-06.glb"
+    },
+    {
+      "id": "filler-01",
+      "kind": "filler",
+      "classification_confidence": 0.95,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -5.525381619553836,
+          -1.8335076570510864,
+          -8.344838001558257
+        ],
+        "max": [
+          7.156040184986195,
+          2.6999611854553223,
+          9.643012467174731
+        ],
+        "dimensions": [
+          12.681421804540031,
+          4.533468842506409,
+          17.987850468732987
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "5edde4d5e621f43e64b705d73b12dc119c7ef3d68829e633e84003550a62815a",
+      "public_sha256": "df60773ad7a68f56c73c35a2b2397d35acb63e83e39c5efed5d4cabee07b207c",
+      "bytes": 6925732,
+      "unchanged_post_json_sha256": "4f3d9c193623449db140bdaa010db4d14583d1bb41d03aaee2dafe6403e93d3b",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/filler-01.glb"
+    },
+    {
+      "id": "filler-02",
+      "kind": "filler",
+      "classification_confidence": 0.95,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -7.817097663879395,
+          -1.6128240823745728,
+          -11.315945625305178
+        ],
+        "max": [
+          6.76972007751465,
+          2.0005903244018555,
+          9.864222526550293
+        ],
+        "dimensions": [
+          14.586817741394047,
+          3.6134144067764282,
+          21.18016815185547
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "8a48cb6cbb229eb02116851840ab7f20b357ad43879932cff86e41a367fb353c",
+      "public_sha256": "e91f08886a0128c4cd3fa6e8ae32e6d609de923e5fd500ae410ea20422f1f00d",
+      "bytes": 12248940,
+      "unchanged_post_json_sha256": "3857fdf25ee5cf992cf8a90b24f3b615c6d9f243cd1344517e5b419316635c96",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/filler-02.glb"
+    },
+    {
+      "id": "unknown-01",
+      "kind": "unknown",
+      "classification_confidence": 0.25,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          0.07601379230618477,
+          -1.727774728089571,
+          -0.6031167581677437
+        ],
+        "max": [
+          1.400513805449009,
+          0.8392252214252952,
+          1.5128832492046065
+        ],
+        "dimensions": [
+          1.3245000131428242,
+          2.5669999495148663,
+          2.1160000073723504
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "813d819da8c1e982b71ec43910fbf680d9c0f4420628659ccf7bcbfa5099ad3a",
+      "public_sha256": "dc88a842ffbd3d582547dfd4aee17ad76afa79d6a477786be64b8388a542dad8",
+      "bytes": 7588556,
+      "unchanged_post_json_sha256": "730facf57e62ffc6cecf4fb67263bdec33348cfb2a5c935334f42452254f651a",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/unknown-01.glb"
+    },
+    {
+      "id": "vertical-lift-01",
+      "kind": "vertical-lift",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -2.5750000741316414,
+          -0.15000000596047866,
+          -1.4000000011684683
+        ],
+        "max": [
+          2.220000068388554,
+          3.6849412242881954,
+          0.1500000011684141
+        ],
+        "dimensions": [
+          4.795000142520196,
+          3.834941230248674,
+          1.5500000023368825
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "1859e94071e5886f9ece467310ee14096d706c0c8b5399e43b3ffcba01f52a38",
+      "public_sha256": "54f513fdd19b567a86aa002bc9d7c8784911d88475a672f7c65ef8f858b8210f",
+      "bytes": 149818436,
+      "unchanged_post_json_sha256": "755db72cea135a780fa0b5c06f069d6be1b1afcfadda58c15bd53d4e969dcd49",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/vertical-lift-01.glb"
+    },
+    {
+      "id": "vertical-lift-02",
+      "kind": "vertical-lift",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -2.5750000741316414,
+          -0.15000000596047866,
+          -1.4000000011684683
+        ],
+        "max": [
+          2.220000068388554,
+          3.6849412242881954,
+          0.1500000011684141
+        ],
+        "dimensions": [
+          4.795000142520196,
+          3.834941230248674,
+          1.5500000023368825
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "eb916bf67ea7d7033f64c78968dff78d87d19c74a88fd7a5944a804bb838041b",
+      "public_sha256": "889dc6d4387df83f18f776cfeee6647f7cf698128e0acf24e79f5f8336e0f4ba",
+      "bytes": 148913576,
+      "unchanged_post_json_sha256": "18bba91b30209153136fb46e4a679a452a938f2309be05a233b7fb873522b836",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/vertical-lift-02.glb"
+    },
+    {
+      "id": "vertical-lift-03",
+      "kind": "vertical-lift",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -2.5750000642053634,
+          -0.15000000596048088,
+          -1.9499999534847627
+        ],
+        "max": [
+          2.220000068388554,
+          3.154941252898425,
+          0.15000000116839138
+        ],
+        "dimensions": [
+          4.795000132593918,
+          3.3049412588589058,
+          2.0999999546531543
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "297bf7c5c1d4ded28e7f2b9fcfc15a780a5804d87174a4826a5eed2c404f0eb6",
+      "public_sha256": "6e7fca7ed7f0ddcc64aff6cf5fd9d1f71ad96a3ebbb560fd99382c7c5267fcc8",
+      "bytes": 150821976,
+      "unchanged_post_json_sha256": "52deb6cb329e650bb5449b45a1d6dc6b537ef5e7345b3c9c4beccd5327d3c6ed",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/vertical-lift-03.glb"
+    },
+    {
+      "id": "vertical-lift-04",
+      "kind": "vertical-lift",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -2.5750000642053634,
+          -0.15000000596048088,
+          -1.9499999534847627
+        ],
+        "max": [
+          2.220000068388554,
+          3.154941252898425,
+          0.15000000116839138
+        ],
+        "dimensions": [
+          4.795000132593918,
+          3.3049412588589058,
+          2.0999999546531543
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "e502a235a018a593cd6f6dbc37349b1f20f9b623faa8bc216e9f1241f8c80745",
+      "public_sha256": "af8e3cce3c0d3a224037f2f5c6896cbfd43a7898da7f4b886d27f48cb73644b6",
+      "bytes": 150552196,
+      "unchanged_post_json_sha256": "5d4d73171ff3be01f8fa66cd2881996f0e1123bff4a5ef3af1439031c539bc11",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/vertical-lift-04.glb"
+    },
+    {
+      "id": "conveyor-02",
+      "kind": "conveyor",
+      "classification_confidence": 0.95,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.34326264262199435,
+          -0.36633724279885566,
+          -2.0350199889455842
+        ],
+        "max": [
+          0.5237373784184456,
+          0.2128586608533474,
+          -0.46502000025002993
+        ],
+        "dimensions": [
+          0.8670000210404399,
+          0.5791959036522031,
+          1.5699999886955542
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "0b83a2afa1967653cc6586fbfea3411d440ce90350a66a5a23c82cea66f4ef34",
+      "public_sha256": "47991f8adac43ed235a843bc6c7fad3fdcc0810a523d2d25b26f05bbb146ec60",
+      "bytes": 6724972,
+      "unchanged_post_json_sha256": "276985ee1271070aba54d6daf13089e402ee01c50b5e12ba3455db3f2780da8b",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/conveyor-02.glb"
+    },
+    {
+      "id": "unknown-02",
+      "kind": "unknown",
+      "classification_confidence": 0.25,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.8057073969393969,
+          -0.332742821843095,
+          -1.1060764640569687
+        ],
+        "max": [
+          0.3427426107227808,
+          0.5042572617530823,
+          1.4881235212087636
+        ],
+        "dimensions": [
+          1.1484500076621775,
+          0.8370000835961773,
+          2.5941999852657323
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "0d90e71ee4bce9f0de1e894d760da7be258bb13a6d658df061df737e48180568",
+      "public_sha256": "1ef2cc99c8c524792cf59a9ebea9b5249b16488c116d2dcf9a5343e4ce44e868",
+      "bytes": 12456708,
+      "unchanged_post_json_sha256": "3703abb4989dde7b5b48724b45a4c8d64eb2f2c9ff6a6a5a87a1f2c4becb97bf",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/unknown-02.glb"
+    },
+    {
+      "id": "pin-removal-machine-01",
+      "kind": "pin-removal-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.7040397381693672,
+          -1.4262347221374512,
+          -1.3093123867106942
+        ],
+        "max": [
+          1.0745260880429621,
+          2.0802764892578125,
+          1.111771438447828
+        ],
+        "dimensions": [
+          1.7785658262123292,
+          3.5065112113952637,
+          2.4210838251585223
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "0cc0cfa682a95e4b2a38206864ef0a17ebd35f5a10a6c128c5ccdaef873f1875",
+      "public_sha256": "717ad8538501bb0d4c1fee3e4d7ffc559b61843ee88a7898ea355e8597a26fd4",
+      "bytes": 1729576,
+      "unchanged_post_json_sha256": "b86c7ab1c589c6ed48b1333b07cfb40e0f621276438853ad620dc743387f9561",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/pin-removal-machine-01.glb"
+    },
+    {
+      "id": "pin-insertion-machine-01",
+      "kind": "pin-insertion-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.681653092135056,
+          -1.1244409084320068,
+          -1.097613466532673
+        ],
+        "max": [
+          1.2074755057013113,
+          1.5465707778930664,
+          1.2387980644260204
+        ],
+        "dimensions": [
+          1.8891285978363674,
+          2.6710116863250732,
+          2.3364115309586935
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "2e528d2fb4e6ff9c486abf5da6464165eab0ca5d2fd1ca6b0018a6cade7f9090",
+      "public_sha256": "7d8673e3bcb9ba3a9136d3021a0398fc0c2ac87ae70428b129181ba983030349",
+      "bytes": 1886780,
+      "unchanged_post_json_sha256": "3985a3972854ca045cb83c32922c485b62eb784267159be5cd6bbcad33d73824",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/pin-insertion-machine-01.glb"
+    },
+    {
+      "id": "cleaning-machine-01",
+      "kind": "cleaning-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.7476164135329152,
+          -1.3346450328826904,
+          -1.1020978050388086
+        ],
+        "max": [
+          0.6925628900429023,
+          1.5238662958145142,
+          1.5959527950740426
+        ],
+        "dimensions": [
+          1.4401793035758175,
+          2.8585113286972046,
+          2.6980506001128512
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "c27e87198b220527c429a52dbf7b07a3b849c0729ee4683dfba9f5aba050a802",
+      "public_sha256": "1dc6399c2dbe86c406c3dcedf19d0e742049c2e9ef74ca18bbcfb46f6015591c",
+      "bytes": 2304968,
+      "unchanged_post_json_sha256": "a607db46694079f650aad0d166b335eaa26e93be69c5bd123b93499f0a9d1b34",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/cleaning-machine-01.glb"
+    },
+    {
+      "id": "slurry-mixer-01",
+      "kind": "slurry-mixer",
+      "classification_confidence": 0.95,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -164.37078857421875,
+          -295.8614581424874,
+          -271.5763701855907
+        ],
+        "max": [
+          125.95513916015625,
+          113.46236252436226,
+          217.55721915801675
+        ],
+        "dimensions": [
+          290.325927734375,
+          409.32382066684966,
+          489.13358934360747
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "07e733dd0ea60da79b089da771c9bd278f1e20ded8f80b679388510a4c4e1837",
+      "public_sha256": "445baf687dd468c38edff448dcb106c6b00208dee99adcba5c1c8e83ea8ce975",
+      "bytes": 6260776,
+      "unchanged_post_json_sha256": "1103d656a6f2b8a96918d756b842e520749ff708d76d87582d205dc65792f616",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/slurry-mixer-01.glb"
+    },
+    {
+      "id": "slurry-mixer-02",
+      "kind": "slurry-mixer",
+      "classification_confidence": 0.95,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -164.421630859375,
+          -295.58114471436977,
+          -154.65804999556036
+        ],
+        "max": [
+          135.76840209960938,
+          113.80536443956503,
+          147.33200530095257
+        ],
+        "dimensions": [
+          300.1900329589844,
+          409.3865091539348,
+          301.99005529651294
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "41197ea95fe7bc5de913eedd68614385af8731497a47e8eee345742a386dbc58",
+      "public_sha256": "eb88c02e817a0b795916aa4baa598df885e91d8326c7a9ac25f26ac22fe9e62c",
+      "bytes": 4470040,
+      "unchanged_post_json_sha256": "3569b0051c5c6247b2aa65c733e14d5f6d5512023c0a3ed93f185ac4a0258fb5",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/slurry-mixer-02.glb"
+    },
+    {
+      "id": "slurry-mixer-03",
+      "kind": "slurry-mixer",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -156.7777099609375,
+          -70.66719818115234,
+          -131.78854370117188
+        ],
+        "max": [
+          291.6246032714844,
+          252.87466430664062,
+          224.611328125
+        ],
+        "dimensions": [
+          448.4023132324219,
+          323.54186248779297,
+          356.3998718261719
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "387fdaa42162b253614706dc817595187d62d7e2401bbafd1669d9469f0fc146",
+      "public_sha256": "01e528f3db8a5f7947f9dede97b74ca9b3dab3d5a7241cacbd072c0ca8dc8517",
+      "bytes": 2640276,
+      "unchanged_post_json_sha256": "21ddde866968e61cbb6dbee6dd3262e2b134a5e791abb8b1275a87c681f5d820",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/slurry-mixer-03.glb"
+    },
+    {
+      "id": "slurry-mixer-04",
+      "kind": "slurry-mixer",
+      "classification_confidence": 0.92,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -132.56132764399499,
+          -6.126675441071445,
+          -0.933911919593811
+        ],
+        "max": [
+          37.7450117412482,
+          5.400006653655014,
+          57.71192452828644
+        ],
+        "dimensions": [
+          170.30633938524318,
+          11.526682094726459,
+          58.64583644788025
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "650824083013b17b2bb409152365c64d6e1b150b2720fdd679b0e56217e683a4",
+      "public_sha256": "a1640c3fae151892c1c79e9dc378c4026b59bbbf39013ce9a9275df3928afcd9",
+      "bytes": 33952504,
+      "unchanged_post_json_sha256": "59906d1a8096d19673f6ac9752aa6fa53de7d358f0198cc3408dd4f51cd0a88b",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/slurry-mixer-04.glb"
+    },
+    {
+      "id": "slurry-mixer-05",
+      "kind": "slurry-mixer",
+      "classification_confidence": 0.92,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -1.4104071957358144,
+          -6.126667562332841,
+          49.96092264783382
+        ],
+        "max": [
+          6.261620719746475,
+          5.400000606372373,
+          57.7119232207551
+        ],
+        "dimensions": [
+          7.672027915482289,
+          11.526668168705214,
+          7.751000572921278
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "172da6de91df1ef1d7b58aa462e21990e267aa192e2d81002f85c2c19c471dc5",
+      "public_sha256": "e12260325ca8baeef48d08f32c424d2f81631b3a52212accad2f5ac2eca7b9ad",
+      "bytes": 2928576,
+      "unchanged_post_json_sha256": "13fafd9e97d26368d2236d545c17398014332716449fb250c163b9c1c8abd652",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/slurry-mixer-05.glb"
+    },
+    {
+      "id": "unknown-03",
+      "kind": "unknown",
+      "classification_confidence": 0.25,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          134.0293436050415,
+          -8.409460306167603,
+          25.054239958524704
+        ],
+        "max": [
+          147.54825925827026,
+          0.37913179397582963,
+          28.92032217979431
+        ],
+        "dimensions": [
+          13.51891565322876,
+          8.788592100143433,
+          3.8660822212696075
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "704fb7bea7f031b8b7efffee1383c8c0b074e16939ce5ea56dcf83f4a992b1b6",
+      "public_sha256": "0b844ca26877d7735176b53ad156e93f107bc60cbc0ae7f808b706c4e886f360",
+      "bytes": 29846820,
+      "unchanged_post_json_sha256": "89f04555eab3f08b4384f3bb2b9e104d4c0cd56a363733ca0fb75417ef6d0d4b",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/unknown-03.glb"
+    },
+    {
+      "id": "solvent-recovery-system-01",
+      "kind": "solvent-recovery-system",
+      "classification_confidence": 0.85,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -291.8876996619656,
+          -108.78150796862701,
+          -188.02389196193053
+        ],
+        "max": [
+          171.66123302670167,
+          114.07726000066486,
+          356.9970756321709
+        ],
+        "dimensions": [
+          463.54893268866726,
+          222.85876796929188,
+          545.0209675941014
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "ebcd6e0800dfdfdf17571239ceff6a951a51fb20e807581d7e761a58d9dd3aff",
+      "public_sha256": "dbfd8c3319c5239065361eca08381039114c4a8deaff89ab3006f5f574cdc1ea",
+      "bytes": 355560,
+      "unchanged_post_json_sha256": "23e043613bdd21c11954eb50cd53ff3db507422e0d33df48506b6688cdb67fda",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/solvent-recovery-system-01.glb"
+    },
+    {
+      "id": "calender-slitter-01",
+      "kind": "calender-slitter",
+      "classification_confidence": 0.93,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -45.57876620419211,
+          16.86553803681219,
+          -13.670957177481222
+        ],
+        "max": [
+          46.56098660463158,
+          33.642261991938696,
+          13.45412161308503
+        ],
+        "dimensions": [
+          92.13975280882369,
+          16.776723955126506,
+          27.125078790566253
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "cb906b2c7a09ef4bdcf1c1fb88e7fae1715df0735e3273b7521989df60cf60c0",
+      "public_sha256": "11f7004a8d7cbe9f8d781c9f874a4c2c1ad5e1be3b85acebc40b6e5b069ba815",
+      "bytes": 11400980,
+      "unchanged_post_json_sha256": "585f040ca8eb7fa2cbf2d8dd55805c3c5e5d711ba16ce614bfd7b83cf323e9fd",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/calender-slitter-01.glb"
+    },
+    {
+      "id": "dust-collection-system-01",
+      "kind": "dust-collection-system",
+      "classification_confidence": 0.87,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -15.636436768827215,
+          -8.707892218274376,
+          -7.30345538387181
+        ],
+        "max": [
+          16.242174874053905,
+          20.53482084938204,
+          6.045427346226647
+        ],
+        "dimensions": [
+          31.87861164288112,
+          29.242713067656418,
+          13.348882730098456
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "50921a4d131a7c54207c927f2f438dbbbca4a9ed30b44db70ddb72993edbb0f8",
+      "public_sha256": "6420e9589a07a8e9ce00ae6d405d13e2ae2f179e965a91eaf8720ac083022a5b",
+      "bytes": 669264,
+      "unchanged_post_json_sha256": "a35bb028f269f4ca79e1982163c70a1a7409af9cef7d194642bc919342625ba3",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/dust-collection-system-01.glb"
+    },
+    {
+      "id": "dust-collection-system-02",
+      "kind": "dust-collection-system",
+      "classification_confidence": 0.87,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -4.51697819583522,
+          -9.312365404791988,
+          -2.1306222598029745
+        ],
+        "max": [
+          3.079982174741506,
+          4.107680216495704,
+          1.627138887374181
+        ],
+        "dimensions": [
+          7.596960370576726,
+          13.420045621287692,
+          3.7577611471771553
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "9d46c9de78033bcbf3355e68fdfe9cc2ef3a6ba535aabec580b797b563034b7e",
+      "public_sha256": "ff5e53a7d9b708ad1a7451091e5b495b89809a2892b8bc6c9f2429ecf5b9eea3",
+      "bytes": 1514892,
+      "unchanged_post_json_sha256": "a502cdcf8c8ce06e18f893a847cbea6a0e9e047cf0a1359e009c2add2a01c1a7",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/dust-collection-system-02.glb"
+    },
+    {
+      "id": "dust-collection-system-03",
+      "kind": "dust-collection-system",
+      "classification_confidence": 0.87,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -4.5035524952976544,
+          -9.27810047472985,
+          -2.7063778062884727
+        ],
+        "max": [
+          3.4146709602870295,
+          4.511170009422023,
+          1.5853563475504
+        ],
+        "dimensions": [
+          7.918223455584684,
+          13.789270484151874,
+          4.291734153838872
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "0ecc1fe9ed6d054a7883964f88ffcaa9c332f6a86ebdee6b7c8a81d095983c39",
+      "public_sha256": "abce68aac7aee70ed2c605533e0c45dac6f08d5e87f237372bb72cf43b151cc8",
+      "bytes": 8727560,
+      "unchanged_post_json_sha256": "8ef506c2d97b57ad3badf6cd5b82364aff342f0be7aeaeb8b7d14c668d8d60a2",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/dust-collection-system-03.glb"
+    },
+    {
+      "id": "dust-collection-system-04",
+      "kind": "dust-collection-system",
+      "classification_confidence": 0.87,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -4.50754169155227,
+          -9.325000297865987,
+          -3.3061500034446576
+        ],
+        "max": [
+          3.9409728255222998,
+          5.3514754937467,
+          2.8849184514522914
+        ],
+        "dimensions": [
+          8.448514517074571,
+          14.676475791612688,
+          6.191068454896949
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "9632d5e4208d1287553fb0fa2b518cd12d001e649b623ad1c6144680351d47c8",
+      "public_sha256": "057b7a7251e30b9f141153982d4582d62d90c649b51a9afc1685307d25320687",
+      "bytes": 10117780,
+      "unchanged_post_json_sha256": "943d6e19a16b4248c31093de2ded15bbd58b68e7c7a986fa8ce84475df7c4601",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/dust-collection-system-04.glb"
+    },
+    {
+      "id": "dust-collection-system-05",
+      "kind": "dust-collection-system",
+      "classification_confidence": 0.87,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -4.763438003844731,
+          -9.32199119781947,
+          -2.6209380552718624
+        ],
+        "max": [
+          3.230046709980333,
+          4.536992379628169,
+          1.5954200216311039
+        ],
+        "dimensions": [
+          7.9934847138250635,
+          13.858983577447638,
+          4.216358076902966
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "96a9a0194b8bb811b9c679f6ff58ca690bc7c664a29cff50e54f5930dc77a7e5",
+      "public_sha256": "c4327c5145debaba00d30abb326e0de81ca68e59f26af735a1134aba41f5eb57",
+      "bytes": 10519640,
+      "unchanged_post_json_sha256": "dbdee34b6c0345650fe9906b8da5cafdc375e16b9ffd56694f45b9730378bdb8",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/dust-collection-system-05.glb"
+    },
+    {
+      "id": "dust-collection-system-06",
+      "kind": "dust-collection-system",
+      "classification_confidence": 0.87,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -1.18878779075876,
+          -2.228504380956363,
+          -0.991666800455167
+        ],
+        "max": [
+          2.4754581403662415,
+          3.187090190957782,
+          1.4539224734544751
+        ],
+        "dimensions": [
+          3.6642459311250013,
+          5.415594571914145,
+          2.445589273909642
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "3b2ac171531efe39c4d9e7315e4c0b2b2693ca6bd60cf76235372371c0ef66d4",
+      "public_sha256": "7c311e977cfd552432aed2f27c217a75e5e2072eebcb2e7961ca6981bddd2d5c",
+      "bytes": 3470544,
+      "unchanged_post_json_sha256": "c92ce210cdd0b269d5834a53e5b3afaf4db685bee674b74a894432cd54f82933",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/dust-collection-system-06.glb"
+    },
+    {
+      "id": "dust-collection-system-07",
+      "kind": "dust-collection-system",
+      "classification_confidence": 0.87,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -1.8169157508529565,
+          0.19908839489156582,
+          -3.590081454863075
+        ],
+        "max": [
+          2.361504909988724,
+          4.470043805085259,
+          -0.8082700644204208
+        ],
+        "dimensions": [
+          4.178420660841681,
+          4.270955410193693,
+          2.781811390442654
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "a287f0b3258d8ba2891f71225589baa131c36405f803af4c5047f1482364cab7",
+      "public_sha256": "546e3217521a895862140565e156e3583dd57e38dbe3a5a5444d59bb61f8c210",
+      "bytes": 3479440,
+      "unchanged_post_json_sha256": "5858fbcc864c1ed6b76a7e6f88169cded4b0a60d31cee39aea55e86f87741773",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/dust-collection-system-07.glb"
+    },
+    {
+      "id": "dust-collection-system-08",
+      "kind": "dust-collection-system",
+      "classification_confidence": 0.87,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.5906486077153165,
+          0.029290708128754995,
+          -0.2634462197516609
+        ],
+        "max": [
+          0.29111987569209685,
+          1.0732957881862135,
+          0.28949506644311673
+        ],
+        "dimensions": [
+          0.8817684834074133,
+          1.0440050800574585,
+          0.5529412861947776
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "e2b0ce23dadc287617df434348986b9472bc68f019ab7e40aaef7bb7b7d8f1fa",
+      "public_sha256": "1a0008bbfd5fcc0bab3d66729ec94fad6144ddc663300887e433ab833aca37dc",
+      "bytes": 4560956,
+      "unchanged_post_json_sha256": "7c1613ba2072fdfd74705076a169a7d570020c31d66a65eb5addc233ee3eb578",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/dust-collection-system-08.glb"
+    },
+    {
+      "id": "slitter-01",
+      "kind": "slitter",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -382.1358337402344,
+          -93.25665718543819,
+          -106.3411882470914
+        ],
+        "max": [
+          255.93515014648438,
+          68.21825345242385,
+          150.82682824801077
+        ],
+        "dimensions": [
+          638.0709838867188,
+          161.47491063786202,
+          257.16801649510217
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "c3876c3d857da211a96f39348240d8dc9bd4692b3a3fe44332784dfc75a5403c",
+      "public_sha256": "ca985fbacd4607e2d30b9ed748fa240a5439c228dce6df672f43f84e3bc7c067",
+      "bytes": 2897852,
+      "unchanged_post_json_sha256": "e91754afda291f3318909c902bedaf6344b3e2d734abe2bd7f460e2f8dfd8d84",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/slitter-01.glb"
+    },
+    {
+      "id": "rewinder-01",
+      "kind": "rewinder",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -2.488435745239258,
+          -1.1391794681549072,
+          -3.2542495727539062
+        ],
+        "max": [
+          2.24367618560791,
+          1.8705627918243408,
+          1.2849154472351074
+        ],
+        "dimensions": [
+          4.732111930847168,
+          3.009742259979248,
+          4.539165019989014
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "40f8f866c734dda3d5e453e94804e987f37c056dbff2878975e7f5855966cb56",
+      "public_sha256": "73739545a131a2de991440f4518764f7aa644fee4e9aaad4db17623fca8db0ec",
+      "bytes": 15660908,
+      "unchanged_post_json_sha256": "a3b1eb7296b6af71da1ea9ac51140b2821ac0f54554cb07cae37b26cb921ef65",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/rewinder-01.glb"
+    },
+    {
+      "id": "slurry-mixer-07",
+      "kind": "slurry-mixer",
+      "classification_confidence": 0.92,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -133.81999125840477,
+          -6.126677137256113,
+          -59.813068359869
+        ],
+        "max": [
+          79.60499004881635,
+          5.456999397991225,
+          60.56192482999026
+        ],
+        "dimensions": [
+          213.42498130722112,
+          11.583676535247339,
+          120.37499318985925
+        ]
+      },
+      "bbox_method": "transformed-accessor-box-conservative",
+      "source_sha256": "27d1c97f0b726a3f6da25363c337e698c09adae50f45f868337e92b6b5f2ba23",
+      "public_sha256": "d9e3a944a79ba37110b23ad243b7b9007098a51470884489909ff557cbde907a",
+      "bytes": 21593808,
+      "unchanged_post_json_sha256": "ebfc18240df811b3df717e7d0efda4322c48fa7a13942faeb9ff72652a9892f7",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-20261104T0924Z/slurry-mixer-07.glb"
+    },
+    {
+      "id": "inspection-machine-04",
+      "kind": "inspection-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.2797819972038269,
+          -1.3327727240569891e-08,
+          -0.5093620492781897
+        ],
+        "max": [
+          0.3320139944553375,
+          0.3063370548138537,
+          0.493421073664974
+        ],
+        "dimensions": [
+          0.6117959916591644,
+          0.30633706814158096,
+          1.0027831229431636
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "bd5ada2b922ee86240a6cdabcf8c013bbc7ee11aab6d113229bdd500a3cd0a2a",
+      "public_sha256": "28123e957b3626bfadf59cd42a4abf5064e5e15ec9f8addfc9dfc4a01c457b6b",
+      "bytes": 40392428,
+      "unchanged_post_json_sha256": "39e8a4c5c7c9102ff140847dad0721697bf3a09900ea46fe32ecce59e8440d6e",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/inspection-machine-04.glb"
+    },
+    {
+      "id": "conveyor-01",
+      "kind": "conveyor",
+      "classification_confidence": 0.95,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.5700560212135315,
+          1.172899095245864e-08,
+          -0.09558701256803015
+        ],
+        "max": [
+          0.6059790253639221,
+          0.16817903898249006,
+          0.0960870349707012
+        ],
+        "dimensions": [
+          1.1760350465774536,
+          0.16817902725349912,
+          0.19167404753873135
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "c9e2d345a9521e0872aadb81ff321fa51854e9a93b6187dc1d43cc799d58d669",
+      "public_sha256": "90dd48015928a059bdb80ac8f7e805e408b7d5e571fdd88d34c679de365013ec",
+      "bytes": 27078112,
+      "unchanged_post_json_sha256": "da4e57c00202fa6005d95da57db0355feb9ade1fea3654ae719d3bc25fb94000",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/conveyor-01.glb"
+    },
+    {
+      "id": "welding-machine-05",
+      "kind": "welding-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.20641499757766724,
+          -1.2641690638229931e-08,
+          -0.5191490656168416
+        ],
+        "max": [
+          0.22113199532032013,
+          0.19216704397800216,
+          0.5963331084301265
+        ],
+        "dimensions": [
+          0.42754699289798737,
+          0.1921670566196928,
+          1.115482174046968
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "d4c1b283fd66ac7bef852320e592a02ca66f0987aec931fcea5b1f7af6f843a2",
+      "public_sha256": "fd4bcd1aaec462b095bf60ed1bb3c7b6ef4535367104e2b80d113ed64a39684f",
+      "bytes": 50471848,
+      "unchanged_post_json_sha256": "34039c20c7dfd98c4dd05a363c7cef833928359a9b8bee5c7d7284319aa797de",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/welding-machine-05.glb"
+    },
+    {
+      "id": "welding-machine-06",
+      "kind": "welding-machine",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.4338900148868561,
+          1.3884912499432113e-08,
+          -0.43451605539163723
+        ],
+        "max": [
+          0.39296698570251465,
+          0.32527808613577636,
+          0.3926040486085689
+        ],
+        "dimensions": [
+          0.8268570005893707,
+          0.32527807225086386,
+          0.8271201040002061
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "0849399e2fd01ed7c5c218bfa056eb11df5ff867472331286add9573510b4236",
+      "public_sha256": "79e3e3471e011ac8da6b3b7f0ddbf6da7cd578e7e05f41ce7aa796babbb47546",
+      "bytes": 58103836,
+      "unchanged_post_json_sha256": "5ee4d895cc12f56072c1e6fe68a2978800bc997f30bd23212e8e9b37da60ba7a",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/welding-machine-06.glb"
+    },
+    {
+      "id": "pairing-machine-03",
+      "kind": "pairing-machine",
+      "classification_confidence": 0.95,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.24981999397277832,
+          7.146077330180375e-08,
+          -0.5409480343784361
+        ],
+        "max": [
+          0.15802699327468872,
+          0.23378506145999925,
+          0.5726090963245375
+        ],
+        "dimensions": [
+          0.40784698724746704,
+          0.23378498999922595,
+          1.1135571307029735
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "a7c99501487342a57db596185d62d30689da2b1831c4e7c7ba9df7eadd754e2d",
+      "public_sha256": "66e95cfaefff0e33639a8820169bdc95d3e322d9858d9709142158a4d30d299f",
+      "bytes": 32741056,
+      "unchanged_post_json_sha256": "4a32a895af467399adac8f008d1a3dddd5dd77b880b816d799212af35fe610fa",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/pairing-machine-03.glb"
+    },
+    {
+      "id": "nitrogen-filling-machine-01",
+      "kind": "nitrogen-filling-machine",
+      "classification_confidence": 0.95,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.4277769923210144,
+          -8.715455581058956e-09,
+          -0.27551702311964815
+        ],
+        "max": [
+          0.4171780049800873,
+          0.688899044822379,
+          0.2785740729857775
+        ],
+        "dimensions": [
+          0.8449549973011017,
+          0.6888990535378345,
+          0.5540910961054257
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "dbf522524aca150e4ed51126577e16fde81026540d6490e1970956edebeb7335",
+      "public_sha256": "4bd8ef0aa46901c378b2a005b0496d46d76dbe1f6e9fb0d5f722f303759a90ec",
+      "bytes": 74854296,
+      "unchanged_post_json_sha256": "1cbd1f26f3feaed57105cdb2ec21405dd49bf4062362e31e9e9b049b53c4c641",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/nitrogen-filling-machine-01.glb"
+    },
+    {
+      "id": "baking-oven-01",
+      "kind": "baking-oven",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.23144599795341492,
+          6.113905552753809e-08,
+          -0.5509540568262974
+        ],
+        "max": [
+          0.23380200564861298,
+          0.1482419652547587,
+          0.5480310475595588
+        ],
+        "dimensions": [
+          0.4652480036020279,
+          0.14824190411570315,
+          1.0989851043858563
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "6168fab5462a42956e3bb1ba742a886c0eb7fac77e38f58f311f93281d5d0d10",
+      "public_sha256": "5030eb8edd5d139e8d540956a7e3209d8393239388301a18eb0596b66abbbf85",
+      "bytes": 88543740,
+      "unchanged_post_json_sha256": "cc7ccf266e3757091f149134f9b98ae591c426ce653b97325fa89dba1e0d1056",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/baking-oven-01.glb"
+    },
+    {
+      "id": "slurry-mixer-06",
+      "kind": "slurry-mixer",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.4806770086288452,
+          3.3455354992491604e-08,
+          -0.49446104486275494
+        ],
+        "max": [
+          0.37411001324653625,
+          0.563997018674997,
+          0.3531290852049774
+        ],
+        "dimensions": [
+          0.8547870218753815,
+          0.5639969852196419,
+          0.8475901300677323
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "e9f105fc4fbe4407eedf1297c4da514734a93c7441431deeabcd9c145433ea83",
+      "public_sha256": "6a07ecaaa3c35e16e65b7622abd28ea20bbebed71cb396666503e71b6a5445d9",
+      "bytes": 67309348,
+      "unchanged_post_json_sha256": "7b809d4e7c97459a2307e033cbd4d0ec9ae5bf4f80d5326c8fa36d96bf9320ae",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/slurry-mixer-06.glb"
+    },
+    {
+      "id": "coater-01",
+      "kind": "coater",
+      "classification_confidence": 0.87,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.2004839926958084,
+          -5.2204731049942347e-08,
+          -0.575043073308464
+        ],
+        "max": [
+          0.20958200097084045,
+          0.3600191124204814,
+          0.5645990770825462
+        ],
+        "dimensions": [
+          0.41006599366664886,
+          0.36001916462521244,
+          1.1396421503910101
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "10cfcfed1e35a3a20ca7e8ae129f6336eb69b629b902ddcfd50712cb88725c14",
+      "public_sha256": "28ca0e60ed6b8eadafb2e0d56b2ebe5d145175fda51e81d55b827be5c911068d",
+      "bytes": 91707912,
+      "unchanged_post_json_sha256": "e37a57b6e83e890a3eae77a7cfc6c022ea0cdd08df7dd654b35afbc06ee994db",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/coater-01.glb"
+    },
+    {
+      "id": "coater-02",
+      "kind": "coater",
+      "classification_confidence": 0.87,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.29342401027679443,
+          -3.613729406021254e-08,
+          -0.4495710663972844
+        ],
+        "max": [
+          0.25529199838638306,
+          0.45095812394071483,
+          0.5013931038162933
+        ],
+        "dimensions": [
+          0.5487160086631775,
+          0.4509581600780089,
+          0.9509641702135777
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "5ea7988d3f0a2111a7c7e01ed1df8e16d892a1604cccca95faafedd37eed93f4",
+      "public_sha256": "de8ace1f551058ebd41ba5f811fb7fe7a202b9d6c551467258f3e8c6ea8e37d3",
+      "bytes": 77721204,
+      "unchanged_post_json_sha256": "7de715f765c1f7575829e20bf34283fc1d33b1ca57fe6434530623efdeed194b",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/coater-02.glb"
+    },
+    {
+      "id": "drying-oven-01",
+      "kind": "drying-oven",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.06498699635267258,
+          -1.4895291786360426e-08,
+          -0.5926730729755832
+        ],
+        "max": [
+          0.1470640003681183,
+          0.1417420958258963,
+          0.5857200916767216
+        ],
+        "dimensions": [
+          0.21205099672079086,
+          0.14174211072118809,
+          1.178393164652305
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "0f3b03193bb1c7a79872c231df8920c66ecc0f4b6f60f9f84889e974e65a9143",
+      "public_sha256": "d04779730730f8c76ea5dc05e1c63d8624da12c31ea4464a631d5919477584f6",
+      "bytes": 83908940,
+      "unchanged_post_json_sha256": "3f3ce0a515251c506891c18eb1f7f8bf4fd37e6bc0496d486ad7852a5a17438b",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/drying-oven-01.glb"
+    },
+    {
+      "id": "calender-slitter-02",
+      "kind": "calender-slitter",
+      "classification_confidence": 0.93,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.165133997797966,
+          -2.894976438912815e-08,
+          -0.5862030347252923
+        ],
+        "max": [
+          0.28200799226760864,
+          0.2827780039542002,
+          0.5986630802479753
+        ],
+        "dimensions": [
+          0.44714199006557465,
+          0.2827780329039646,
+          1.1848661149732678
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "597b1069e7b8adb33c8cd8a28e63d3ce327b281906aa3a0f7fb3d62020c3a315",
+      "public_sha256": "e9085538372b6b35fd5edc47dba7265f279598b15c45f9c52581bc345c623359",
+      "bytes": 38169824,
+      "unchanged_post_json_sha256": "86a43b76e1f8a8a97047d2455a9dbd16e81566b4fa7379e3f8e244d3d7f9ea7b",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/calender-slitter-02.glb"
+    },
+    {
+      "id": "calender-slitter-03",
+      "kind": "calender-slitter",
+      "classification_confidence": 0.93,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.1976500004529953,
+          2.3734492347250954e-08,
+          -0.5630780428925275
+        ],
+        "max": [
+          0.13234500586986542,
+          0.20757209584570657,
+          0.5885770549935526
+        ],
+        "dimensions": [
+          0.3299950063228607,
+          0.20757207211121423,
+          1.15165509788608
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "e7d722106770b1af22277c485a90017219dff5ff96f3306a64586402efe1b1a0",
+      "public_sha256": "ce82b0e201a3b628eba0aa4b3641b1d7afa827dbe8655baa416f36ba73168baf",
+      "bytes": 30805640,
+      "unchanged_post_json_sha256": "de604c77dcb90bdb7d235dc8cbc04fd4c7937fa8eccded667bc448e7eb333c5e",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/calender-slitter-03.glb"
+    },
+    {
+      "id": "slitter-02",
+      "kind": "slitter",
+      "classification_confidence": 0.98,
+      "role": "reference-export",
+      "units": "unverified",
+      "bbox_source_units": {
+        "min": [
+          -0.5394629836082458,
+          -1.0096933664479463e-08,
+          -0.24663299783234435
+        ],
+        "max": [
+          0.545898973941803,
+          0.256964030614028,
+          0.22311203234917878
+        ],
+        "dimensions": [
+          1.0853619575500488,
+          0.2569640407109617,
+          0.46974503018152314
+        ]
+      },
+      "bbox_method": "transformed-position-vertices",
+      "source_sha256": "170e47d38da24d2d211687cde7ded8b727ffa5aa141f2ee335d6c91229faae80",
+      "public_sha256": "cec90b0a222c9023adedf98279400bbbcd772ef4b747025f8522c88f4f526a6b",
+      "bytes": 42117928,
+      "unchanged_post_json_sha256": "b0cbb403bb6f29603d68bf7c6ca187e5eb24f18538a0e576325004d8c1d52b57",
+      "download_url": "https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/slitter-02.glb"
+    }
+  ],
+  "hold": [
+    {
+      "id": "inspection-machine-07",
+      "reason": "embedded image identifier present"
+    },
+    {
+      "id": "wrapping-machine-02",
+      "reason": "embedded image identifier present"
+    },
+    {
+      "id": "welding-machine-04",
+      "reason": "embedded image identifier present and one image unreviewed"
+    }
+  ],
+  "prior_deferred_snapshot": [
+    {
+      "id": "inspection-machine-04",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "wrapping-machine-02",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "welding-machine-04",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "conveyor-01",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "welding-machine-05",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "welding-machine-06",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "pairing-machine-03",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "nitrogen-filling-machine-01",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "baking-oven-01",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "inspection-machine-07",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "slurry-mixer-06",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "coater-01",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "coater-02",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "drying-oven-01",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "calender-slitter-02",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "calender-slitter-03",
+      "reason": "embedded images require identification review"
+    },
+    {
+      "id": "slitter-02",
+      "reason": "embedded images require identification review"
+    }
+  ]
+}
