@@ -84,3 +84,7 @@ The manifest records source and public SHA-256, byte sizes, classification confi
 | calender-slitter-02 | calender-slitter | 0.93 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/calender-slitter-02.glb) |
 | calender-slitter-03 | calender-slitter | 0.93 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/calender-slitter-03.glb) |
 | slitter-02 | slitter | 0.98 | [GLB](https://github.com/hsudatalks/reality-model-spec/releases/download/industrial-reference-exports-part2-20261104T1013Z/slitter-02.glb) |
+
+## Generic design briefs
+
+[24-kind BOM brief index](../briefs/industrial-bom/INDEX.md): 365 generic assembly rows plus a separate synthetic stacker example. Reference units remain unverified; candidate joints, states and sockets require a consumer contract. These documents do not grant additional asset rights.

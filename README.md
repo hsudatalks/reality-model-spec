@@ -65,3 +65,5 @@
 - [通用合成房间外壳模块静态 brief](docs/briefs/generic-room-shell-static.md)：原创合成、允许公开传播及本项目制作。
 
 - [通用固定式摄像头及简单支架静态 brief](docs/briefs/social-camera-static.md)：原创合成、允许公开传播及本项目制作。
+
+- [工业设备通用 BOM brief 索引](docs/briefs/industrial-bom/INDEX.md)：24 类共 365 行，另附合成 stacker；尺寸为设计范围、参考单位未验证，动作接口为候选，非已批准消费契约。公开文档不授予母版或参考资产的额外许可。

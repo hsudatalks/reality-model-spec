@@ -7,3 +7,5 @@
 大二进制使用本仓库的 [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) assets，git 中保留逐条 manifest：通用 id、字节数、SHA256、真实下载 URL、`role: reference` 及实际适用许可范围。尚未发布时不造空 release、假下载链接或假清单。允许托管和公开分发不等于 CC0/MIT、全球复用或第三方再许可；每项权利如实记录。
 
 已发布的参考文件见 [2026-11-04 工业参考目录](reference-exports/industrial-20261104.md) 和其逐件清单。后续合格生产资产仍经正式备份、派生、确定性 intake、草稿与消费验收及批准激活，由消费者从 Library 精确检索使用。参考公开不解除具体生产者的上传或目录限制。
+
+配套[工业设备通用 BOM brief](briefs/industrial-bom/INDEX.md)覆盖 24 类、365 行，另附无工业索引来源的合成 stacker。BOM 是通用设计草稿，尺寸范围、来源置信度及单位未验证限制保持；候选 joint/state/socket 不是动画或消费契约，LOD/压缩由平台负责。
