@@ -8,7 +8,7 @@
 
 `amr_root` 下包含简洁低底盘、四个独立轮组、可视载荷顶板 `load_plate`，以及前方独立 `sensor_cover` 和 `status_light_cover`。轮组枢轴在实际轮心，记录中心及局部轴；记录候选顶板平面 Y 和尺寸。无驾驶室、机械臂或抓取。总览能识别轮廓，点击聚焦能看清轮组与顶板；原创中性 PBR，无品牌文字，不烘焙光影、状态色或文字，不要求发光扩展。
 
-同一通用模型供消费侧 AGV 与移动机器人角色复用。dock-allocation 是分配角色，不是另一种硬件 kind，不另造该外形；正式 subject kind 仍由消费方确认。充电坞是单独候选，不含在本模型中。
+同一通用模型只供 charging/building/facility 的紧凑移动机器人角色复用；不覆盖 berth-demo/interactive-demo 岸桥旁的集装箱运输 AGV，港运车辆是独立需求。dock-allocation 是分配角色，不是另一种硬件 kind，不另造该外形；正式 subject kind 仍由消费方确认。充电坞是单独候选，不含在本模型中。
 
 ## 范围与交付
 
