@@ -10,6 +10,7 @@
 | [模型任务模板](templates/model-task.md) | 填写制作范围、尺寸依据、权利、消费契约与交付证据 |
 | [母版制作](docs/authoring.md) | 坐标、锚点、几何、材质与可重建源 |
 | [Runtime 与 LOD](docs/runtime-and-lod.md) | 平台派生职责、等级结构、预算与能力边界 |
+| [参数化设备](docs/parametric-equipment.md) | 可重建参数源、几何/节点联动及分阶段工序闭环 |
 | [数据驱动动画](docs/data-driven-animation.md) | 状态槽、节点映射、时间行为与输入→pose 验收表 |
 | [元数据与交付](docs/metadata-and-delivery.md) | 完整 12 键 ABI、来源权利、文件 SHA 与轻量检查 |
 | [贡献与公开范围](docs/contributing.md) | 哪些材料可以公开，提交范围与敏感信息约定 |

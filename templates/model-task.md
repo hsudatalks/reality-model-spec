@@ -24,3 +24,5 @@
 待确认表建议采用“事项｜缺少的证据或契约｜影响的能力/阶段｜当前可推进范围”。这仅是文档记录方式，不是 GLB unknown schema。未定复杂动作契约不阻塞获准静态范围；静态草稿必要检查通过后推进下一步，正式 active 仍须消费验收。
 
 交付标准：[母版制作](../docs/authoring.md)、[元数据与交付](../docs/metadata-and-delivery.md)、[runtime 与 LOD](../docs/runtime-and-lod.md)。
+
+参数化范围另附[参数化设备任务补充表](parametric-equipment-task.md)：可重建生成源、参数类型/单位/默认/支持范围/约束/source truth、约定参数集的无损输出及参数/源/输出 SHA provenance；记录几何、可动节点/轴/枢轴/接口候选点联动。根节点负或非均匀缩放不能替代几何重新生成。参数源与动画表相连，未知只记文档待确认；详[参数化设备](../docs/parametric-equipment.md)。

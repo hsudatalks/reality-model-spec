@@ -88,3 +88,15 @@ The manifest records source and public SHA-256, byte sizes, classification confi
 ## Generic design briefs
 
 [24-kind BOM brief index](../briefs/industrial-bom/INDEX.md): 365 generic assembly rows plus a separate synthetic stacker example. Reference units remain unverified; candidate joints, states and sockets require a consumer contract. These documents do not grant additional asset rights.
+
+## Supplementary visual classification — ASSUMED
+
+The original table and manifest above retain the initial unknown label/confidence **0.25**. Delivery subsequently inspected neutral-grey views with edges and a scale bar; the coordinator accepted the following provisional proposals from that source, without an independent re-review. This is a text annotation, not a replacement release/index or new geometry publication.
+
+| Unchanged safe ID | Provisional interpretation | Visual classification confidence | Limits |
+| --- | --- | ---: | --- |
+| `unknown-01` | [Vertical lift / two-level transfer](../briefs/industrial-bom/vertical-lift.md) | 0.6 | Two-level buffer is an alternative |
+| `unknown-02` | [Conveyor](../briefs/industrial-bom/conveyor.md) | 0.9 | Process and motion remain unverified |
+| `unknown-03` | [Slurry-mixer feed/dosing station subassembly](../briefs/industrial-bom/slurry-mixer.md) | 0.5 | Two platform levels, conical hoppers/dosing vessels and separate tank units; no confirmed process |
+
+Units and physical dimensions remain **unverified**; visual classification confidence is not unit/dimension confidence. Safe IDs, source/public GLB SHA values, files and original index remain unchanged. No new images, GLBs, Library tags, license or cross-client permissions are published by this annotation. Restricted evidence remains in its authorized environment.

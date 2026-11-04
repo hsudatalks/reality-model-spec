@@ -1,9 +1,9 @@
 <!-- generic-briefs-research-v1 -->
-> **Review boundary:** Generic design ranges and confidence are unchanged. Reference units are unverified; do not apply a blanket scale. Joints, states and sockets are conceptual candidates, not a runtime ABI, implemented capability or binding contract. Delivery and 85 must define the actual schema. LOD triangle ranges below are visual planning guidance for platform-derived runtime assets, not requirements on lossless author masters.
+> **Review boundary:** Generic design ranges and confidence are unchanged. Reference units are unverified; do not apply a blanket scale. Joints, states and sockets are conceptual candidates, not a runtime ABI, implemented capability or binding contract. Actual consumer owners must confirm the existing contract path and commit; historical message aliases do not establish an owner. LOD triangle ranges below are visual planning guidance for platform-derived runtime assets, not requirements on lossless author masters.
 
 # Generic equipment master briefs
 
-24 classified kinds are drafted from 64 classified released references. Three additional released references remain unclassified; three other exported variants remain withheld. Each brief has one assembly BOM per kind, a generic process, broad dimension ranges, configurable quantities, motion groups, application states, sockets and LOD guidance. These are reviewable generic design drafts; no manufacturing BOM or unit certificate is implied.
+24 classified kinds are drafted from 64 classified released references. Three additional released references retain their original unknown IDs and now have supplementary ASSUMED visual classifications; three other exported variants remain withheld. Each brief has one assembly BOM per kind, a generic process, broad dimension ranges, configurable quantities, motion groups, application states, sockets and LOD guidance. These are reviewable generic design drafts; no manufacturing BOM or unit certificate is implied.
 
 **Read before modelling:** all hidden internals, kinematics, process recipes and exact quantities are assumptions. Reference physical units remain unverified. Generic masters must be authored directly in metres; reference envelopes must not set the final master dimensions. Large arrays, full lines, head/tail modules and single stations are explicitly separated in scope.
 
@@ -37,7 +37,7 @@
 ## Remaining / held
 
 - **Stacker:** no stacker kind or released stacker reference is present in the supplied index. No reference-backed stacker BOM issued. A separate synthetic baseline brief is available: [stacker.md](stacker.md). It is not reference-backed.
-- **Unknown:** the three released unclassified references need functional classification. They may represent different equipment kinds, so no common functional BOM is invented for this bucket. No withheld references are included in any brief.
+- **Unknown:** the three originally unclassified references now have supplementary visual hypotheses below. Their original IDs/index are retained; no common functional BOM is invented for this bucket. No withheld references are included in any brief.
 
 ## Handoff contract
 
@@ -54,3 +54,9 @@ Review the process variant, module scope and motion assumptions before building 
 Delivery reports 70 references: 10 drawing matches (8 footprint, 2 outline), 60 assumed; 11 medium, 59 low, 0 high. This is the delivery author report, not an independent engineering audit. A match is not engineering approval. All reference units remain unverified. No uniform 0.1 transform is justified. No drawing, source archive, private mapping or fitted instance is included.
 
 The 24 embedded BOM tables total 365 rows. The separate synthetic stacker is not part of this count. The three held variants are not used in these briefs. Source handoff JSON files are not included; the tables in these briefs are the delivered review content.
+
+## Parameter sources and supplementary visual hypotheses
+
+Continue through [parametric equipment](../../parametric-equipment.md) and its [task supplement](../../../templates/parametric-equipment-task.md); the [coater phase-1 source demonstration](../coater-parametric-phase1.md) is a finite static scope, awaiting author ACK. These briefs are starting candidates, not 24 claimed tasks or implemented dynamic contracts. Existing static acceptance and platform quality work continue.
+
+The original three `unknown-*` classifications at 0.25 remain historical. Delivery has since supplied visual ASSUMED proposals, accepted provisionally by the coordinator (no independent re-review): unknown-01 → vertical lift/two-level transfer (0.6; two-level buffer alternative); unknown-02 → conveyor (0.9); unknown-03 → slurry-mixer feed/dosing **subassembly** (0.5). See the relevant briefs and [release directory note](../../reference-exports/industrial-20261104.md). Safe IDs, source/public digests, files and original index are unchanged. Classification confidence is separate from physical units/dimensions, which remain unverified. No added BOM rows, rights or Library tags follow from these proposals. Actual contract owners and their path/commit must be confirmed; historical “85” is an old message alias, not a verified dependency.

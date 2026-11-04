@@ -1,5 +1,5 @@
 <!-- generic-briefs-research-v1 -->
-> **Review boundary:** Generic design ranges and confidence are unchanged. Reference units are unverified; do not apply a blanket scale. Joints, states and sockets are conceptual candidates, not a runtime ABI, implemented capability or binding contract. Delivery and 85 must define the actual schema. LOD triangle ranges below are visual planning guidance for platform-derived runtime assets, not requirements on lossless author masters.
+> **Review boundary:** Generic design ranges and confidence are unchanged. Reference units are unverified; do not apply a blanket scale. Joints, states and sockets are conceptual candidates, not a runtime ABI, implemented capability or binding contract. Actual consumer owners must confirm the existing contract path and commit; historical message aliases do not establish an owner. LOD triangle ranges below are visual planning guidance for platform-derived runtime assets, not requirements on lossless author masters.
 
 # Electrode slurry mixing system / 极片制浆系统
 
@@ -91,3 +91,9 @@ Offer single-vessel, twin-vessel and tower variants. Tanks, top drives and suppo
 - Author new primitives, surfaces and textures. Keep only one LOD visible, instance repeated modules, preserve sockets and animation pivots, and avoid hidden detail at distance.
 - Use generic materials and symbols. Omit brand marks, plant labels, real tags, file-path metadata and source textures. Do not include source geometry.
 - Review the selected process variant and optional modules before promoting the draft to a reusable master. Original triangle counts and component candidates are not generic assembly quantities.
+
+## Supplementary visual classification (ASSUMED)
+
+`unknown-03` → slurry-mixer feed/dosing station **subassembly**, visual classification confidence **0.5**: two platform levels, conical hoppers/dosing vessels and separate tank units. This does not prove a complete mixer or a specific real process.
+
+Source: delivery's neutral-grey, edge and scale-bar visual inspection, provisionally accepted by the coordinator; no independent re-review here. The initial unknown classification at 0.25 is retained as history. Units and dimension confidence remain **unverified**, separately from the visual confidence above. This text does not alter safe IDs, source GLB SHA, filenames, original index, geometry, Library tags or rights. See the [release directory note](../../reference-exports/industrial-20261104.md).
