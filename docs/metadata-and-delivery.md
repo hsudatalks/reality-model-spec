@@ -1,8 +1,38 @@
 # 元数据与交付
 
-本页参考日期 **2026-11-04**，下列12键是 **modelABI 1.0 内嵌声明及 ISO 派生输入参考**，位于 **GLB JSON 顶层 `extras.modelABI`**，不是节点 extras。它不是所有 generic-original adopt 路径的统一拒收条件；各路径以正式钉版工具合同为准。本参考不提供完整消费语义 schema。
+## 当前消费合同：Player ModelABI 1.1（2026-11-04）
 
-## 完整 12 键 ABI 参考
+已核对权威 [packages/types/src/model.ts](https://github.com/hsudatalks/univers-aip-lib-ts-scene-player/blob/bb7b89c42d06fef98a0ae72ccca1eb6e03eeb2ea/packages/types/src/model.ts)，固定 source commit `bb7b89c42d06fef98a0ae72ccca1eb6e03eeb2ea`。这是播放器的 GLB 顶层 `extras.modelABI` typed contract；外部 intake `meta.json` 是另一个平台输入合同，不能互相替代。下方保留的 static12 / ABI 1.0 是旧平台静态/ISO 输入参考，凑齐12键不等于播放器准入、动画可用或消费通过。
+
+当前静态声明可使用合法的空 `states`、`drives` 数组。下例须确实存在唯一命名的 `socket_kingpin` glTF 节点，节点由任务约定其 authored TRS；这只是 typed 声明示例，不是任意模型的准入实测或挂接认证：
+
+```json
+{
+  "modelABI": {
+    "version": "1.1",
+    "units": "m",
+    "up": "Y",
+    "forward": "+Z",
+    "states": [],
+    "drives": [],
+    "sockets": [{
+      "name": "kingpin",
+      "node": "socket_kingpin",
+      "tolerance": {"metres": 0.01, "radians": 0.0175}
+    }]
+  }
+}
+```
+
+`SocketDecl`（82–92行）仅为 `name`、`node` 和可选 `tolerance:{metres,radians}`。位置和方向来自 glTF 节点在 unscaled model root frame 下的 authored TRS；不在 ABI 新增 xyz/position/rotation 字段。tolerance 缺省时按源码注释只按 float32 精度检查并报告 undeclared；上例显式声明容差不等于物理/工程配合验证。无已声明挂点的静态模型可用 `sockets:[]`。GLB 米、+Y up、+Z front 保持，播放器内部坐标转换只做一次。
+
+非空 `StateDecl`（26–46行）必需 `name:string`、`clip:string`、`loop:boolean`、`clock:'scene'|'entry'`；可选 `appearance` 的 `color/emissive` 为三元数值、`opacity` 为数值。不存在 `phase-source` 这个属性；PHASE 是源码注释的时间语义。非空 states 必须指向真实 clip，不能用候选能力名代替。`DriveDecl`（17–25行）为 name/node/path/axis/range/default/interp，具体业务映射与插值值仍须钉版消费合同。静态无 clip/未实现驱动时正式数组留空，未来动作候选列 README，不伪造运行语义。
+
+当前平台 intake/preflight 对上述1.1的支持声明和正式调用尚待 c4 确认，本轮未实测，不宣称接受或拒绝。旧无 ABI 的 generic 原件仍按其正式 adopt 外部声明路径保留，不自动要求每个母版改写。delivery 正修无 ABI 静态 fallback 并保留 diagnostic，尚无正式 ready pin，不能写成已发布支持。后续修改由作者另存新无损修订、同步真实资产版本/来源/新 SHA；不改原件或旧 DRAFT，也不用 retag 修改 GLB/ABI。
+
+本页保留的历史参考日期 **2026-11-04**，下列12键是 **modelABI 1.0 内嵌声明及 ISO 派生输入参考**，位于 **GLB JSON 顶层 `extras.modelABI`**，不是节点 extras。它不是所有 generic-original adopt 路径的统一拒收条件；各路径以正式钉版工具合同为准。本参考不提供完整消费语义 schema。
+
+## 历史平台 static12 / ABI 1.0 输入参考
 
 | 键 | 当前参考要求 |
 | --- | --- |
@@ -41,7 +71,9 @@
 
 本版不规定通用 unknown 编码。未知项列在交付说明的待确认表中，不以 `null`、空数组、不适用或自造对象掩盖未知；在相关语义确认后形成相应元数据修订。已满足静态草稿范围的事实不因未来复杂动作契约待定而扩大或缩小其含义。
 
-## 静态 ISO 箱的最小元数据修订
+## 静态 ISO 箱的最小元数据修订（历史平台1.0参考）
+
+本节保留旧平台ISO输入参考；它不能代替上方player1.1消费声明。1.1嵌入声明与外部intake meta的版本对齐及正式调用待平台确认，不将本例1.0固定值强套到新1.1修订。
 
 普通静态 ISO20/40 箱可按上述事实声明进入仅存在性检查的草稿流程，无需等待未来完整吊装或动画契约。前提是作者已有底面 Y=0 的证据、该资产确实不适用轨距、此版确实没有声明挂点。不要为此重建几何、制作 LOD 或压缩母版。
 
@@ -77,7 +109,7 @@
 随包提供 manifest、制作/导出说明和外部元数据，复用并更新生产者已有文档。至少包括：
 
 - 作者确认的单资产 `id`、资产 `version`、`kind`、平面 `tags` 列表，以及与 ABI 一致的坐标、尺寸和锚点信息。
-- 外部 `abi` 参考：`{"version":"1.0","units":"m","up":"Y","forward":"+Z"}`；它不替代完整内嵌 12 键。
+- 外部 `abi` 参考：`{"version":"1.0","units":"m","up":"Y","forward":"+Z"}`；它是否适用及是否需要内嵌声明须按具体平台路径确认，不能替代播放器1.1合同。
 - `author`、`source`、`license`、`reuse_rights`、`derivation`：实际作者、来源、许可、允许复用范围与修订/派生关系；附可核对的 provenance 和权利依据。
 - 尺寸出处、测量方法及 truth/假设说明；contact、轨距、挂点与可动节点的声明和消费契约 pin。
 - 源文件、GLB、原始贴图与依赖清单，制作/导出工具版本、设置及可重建步骤，实际几何/材质统计与已知限制。

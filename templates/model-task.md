@@ -26,3 +26,5 @@
 交付标准：[母版制作](../docs/authoring.md)、[元数据与交付](../docs/metadata-and-delivery.md)、[runtime 与 LOD](../docs/runtime-and-lod.md)。
 
 参数化范围另附[参数化设备任务补充表](parametric-equipment-task.md)：可重建生成源、参数类型/单位/默认/支持范围/约束/source truth、约定参数集的无损输出及参数/源/输出 SHA provenance；记录几何、可动节点/轴/枢轴/接口候选点联动。根节点负或非均匀缩放不能替代几何重新生成。参数源与动画表相连，未知只记文档待确认；详[参数化设备](../docs/parametric-equipment.md)。
+
+消费 ABI 声明须区分[播放器 ModelABI 1.1 固定 types 与平台外部 intake meta](../docs/metadata-and-delivery.md)。静态无 clip/驱动时使用合法空 states/drives，不沿用旧12键作为消费通过依据；socket位置/方向来自唯一命名glTF节点的 authored TRS，声明容差须如实填写。非空 state 按 name/clip/loop/clock 及可选 appearance，真实 clip 与业务映射另验。平台1.1支持待正式确认，无ABI fallback未有ready pin。
