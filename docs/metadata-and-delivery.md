@@ -31,6 +31,37 @@
 
 本版不规定通用 unknown 编码。未知项列在交付说明的待确认表中，不以 `null`、空数组、不适用或自造对象掩盖未知；在相关语义确认后形成相应元数据修订。已满足静态草稿范围的事实不因未来复杂动作契约待定而扩大或缩小其含义。
 
+## 静态 ISO 箱的最小元数据修订
+
+普通静态 ISO20/40 箱可按上述事实声明进入仅存在性检查的草稿流程，无需等待未来完整吊装或动画契约。前提是作者已有底面 Y=0 的证据、该资产确实不适用轨距、此版确实没有声明挂点。不要为此重建几何、制作 LOD 或压缩母版。
+
+在 GLB 顶层 `extras` 下写入以下对象；尖括号项必须由作者用真实声明替换，**不是可直接提交的完整实例**：
+
+```json
+{
+  "modelABI": {
+    "id": "<assetId>@<newAssetVersion>",
+    "version": "1.0",
+    "units": "m",
+    "up": "Y",
+    "forward": "+Z",
+    "kind": "<author-declared-kind>",
+    "nominalDimensions": [2.438, 2.591, 6.058],
+    "anchor": "bottom-centre",
+    "contact": {"plane": "Y=0"},
+    "gauge": null,
+    "sockets": [],
+    "licence": "<same exact statement as external license>"
+  }
+}
+```
+
+这是 ISO20 的 X/Y/Z 尺寸；ISO40 的 Z 改为 `12.192`。这份声明不代表开门、标准角件配合、吊装、挂接或消费者验收。未知接触面不能复制示例冒充已测。
+
+外部 `meta.json` 的必需字段为 `id`、`version`、`kind`、`author`、`license`、`reuse_rights`、`source`、`derivation`、`tags`、`abi`。其中 `tags` 是字符串数组，`id/version/kind/author/license/reuse_rights/source/derivation` 是非空字符串；`abi` 固定为 `{"version":"1.0","units":"m","up":"Y","forward":"+Z"}`。ISO 派生输入另写 `derive:{"profile":"iso20"}` 或 `iso40`；这是平台派生配置，不是要求作者交 runtime。`asset_id` 不能替代所需的 `id`；描述性 `axes`/`unit` 不能替代 `abi`。源件不需要填写 runtime 的 `lod`、runtime SHA 或派生回执。
+
+沿用作者真实身份和既有权利限制，采用新的资产版本，外部 `id/version/kind/license` 与内嵌值一致。`source` 可复用已有原创来源说明；`derivation` 记本次元数据修订与旧母版出处。仅补充发生变化的无损 GLB、对应 meta、字节/SHA 和必要格式报告，更新已有可重建源记录；保留原稿，不重复上传未改的整批文件，不为元数据修订新增渲染或重建门槛。
+
 ## 外部说明、来源与权利
 
 随包提供 manifest、制作/导出说明和外部元数据，复用并更新生产者已有文档。至少包括：
