@@ -1,6 +1,6 @@
 # Generic coater parameter-source demonstration — phase 1
 
-**Task:** `P1-A1/parametric-source-phase1`, priority P1, author edge-01. **Status: awaiting_ack** — scope prepared after the author's request; no acceptance, start or completion is implied. This supplements the author's existing locally completed generic coater master. Preserve that original and the previous eleven locally completed items unchanged; this is not a twelfth completed item. The next master-production plan remains proposed, separately scoped and unauthorized until confirmed.
+**Task:** `P1-A1/parametric-source-phase1`, priority P1, author edge-01. **Status: author ACK followed by author-reported local completion**; no independent acceptance or receipt is implied. The original awaiting-ACK state is historical. This supplements the author's existing locally completed generic coater master. Preserve that original and the previous eleven locally completed items unchanged; this is not a twelfth completed item. The next master-production plan remains proposed, separately scoped and unauthorized until confirmed.
 
 ## Finite demonstration scope
 
@@ -24,3 +24,7 @@ Reuse the author's own source and materials, without customer CAD or another aut
 **Permission:** local production only. No cloud directory creation, upload or change of sharing permissions; previous eleven items and new outputs retain existing delivery restrictions. No added public or cross-client reuse license. Report local progress/completion/blockers through the existing check-in process; actual transfer needs its existing separate authorization. The public brief itself conveys no rights in existing models or references.
 
 See [parameter-source requirements](../parametric-equipment.md), [task supplement](../../templates/parametric-equipment-task.md) and [animation documentation](../data-driven-animation.md). Pending contracts do not block this static source demonstration.
+
+## Author-reported local completion update
+
+The author reports both finite sets rebuilt, coupled frame/enclosure/support and roller positions, no root non-uniform scale, and candidate roller centres `(0, 0.45*H, ±0.43*L)` with local-X axes. Both author Validator reports are 0 errors / 0 warnings / 64 unused-UV infos, with 32 file hashes reported. These are author checks of two sets, not an independently verified parameter domain. The original twenty files were preserved and nothing uploaded. The previous eleven original locally completed items remain eleven; one supplementary parameter-source scope is now author-reported complete, not twelve received assets or twelve new models. Delivery and rights restrictions remain unchanged.

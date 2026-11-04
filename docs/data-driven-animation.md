@@ -45,6 +45,6 @@
 
 按[参数化设备](parametric-equipment.md)把上述每设备表连接到参数文件、生成源和输出的 SHA：区分几何参数、候选动作能力与已实际消费状态。参数变化应联动节点、局部轴/枢轴、限位与接口候选点；每个动作记录其真实 source/type/unit/range、初始/缺失/过期行为、时序映射及派生保留。没有正式消费契约就列 owner 待确认，不在 ABI 新造 slot。
 
-GLB 提供几何/节点，工序调度与数据逻辑归消费端；Library 以精确版本、digest/provenance 检索。静态 PASS 不等于动态可用。FACTORY-INV1 的实际契约 path/commit 待交付后填写，研究 ETA 不作为已实装证据。
+GLB 提供几何/节点，工序调度与数据逻辑归消费端；Library 以精确版本、digest/provenance 检索。静态 PASS 不等于动态可用。FACTORY-INV1 已交付并读取：[固定清单](https://github.com/hsudatalks/univers-ext-factory/blob/09e58265b5a841b0e4cf26a16f45bccc27f48fc4/docs/FACTORY-INV1.md)。这只证明源码盘点PARTIAL，不代表运行包/场景验收；面板无TTL，业务状态无缺失过期停机逻辑、未出现新key保持原状态；native reset和text fact有效期是不同路径。已有native node/clip/textSlot词汇，但没有factory业务槽映射、逐颗流转及正式OK/NG/rework/scrap语义，四场景未测。G1–G10仍待delivery钉版battery-chain1-spec，不补造接口。
 
 先由 delivery 最终选择、验收一条短链，以可重放 **ASSUMED TEST** 正常及停机/故障恢复数据，覆盖上游交出→本机进料/在制/动作反馈→出料/质量分流→下游接收与反馈；含缺失/过期/复位/seek 及现有消费能力内的 LOD 节点保真。未获项目工艺确认时不预设完整真实顺序或物料字段。截图/PBR 不足以证明闭环；不新增运行接口/全类别动态硬门槛，也不要求已完成静态母版整批重做。
