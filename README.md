@@ -73,3 +73,5 @@
 - [通用双出口分选机参数母版 brief](docs/briefs/factory-sorter-parametric.md)：固定外框、两个出口间距参数集，Legion待ACK；非已实现OK/NG业务。
 
 - [通用工业边缘网关静态 brief](docs/briefs/social-edge-gateway-static.md)：原创合成静态范围，消费 kind 待定。
+
+- [通用传感节点静态母版 brief](docs/briefs/social-sensor-node-static.md)：原创合成紧凑外壳，非相机或网关，消费 kind 待确认。
