@@ -59,3 +59,9 @@
 - [通用室内配送机器人静态 brief](docs/briefs/social-delivery-robot-static.md)：原创合成静态范围。
 
 - [通用明装风机盘管静态 brief](docs/briefs/hvac-fcu-static.md)：原创合成静态范围。
+
+- [通用原创无品牌四旋翼巡检无人机静态 brief](docs/briefs/social-drone-static.md)：原创合成、允许公开传播及本项目制作。
+
+- [通用合成房间外壳模块静态 brief](docs/briefs/generic-room-shell-static.md)：原创合成、允许公开传播及本项目制作。
+
+- [通用固定式摄像头及简单支架静态 brief](docs/briefs/social-camera-static.md)：原创合成、允许公开传播及本项目制作。
