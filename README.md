@@ -81,3 +81,5 @@
 - [涂布参数源 phase2](docs/briefs/coater-parametric-phase2.md)：新增W/H两组，作者本地完成、未收件。
 - [通用车辆单杆道闸静态 brief](docs/briefs/social-barrier-gate-static.md)：已作者交付待回执。
 - [通用双圆盘洗地机器人静态 brief](docs/briefs/social-floor-cleaning-robot-static.md)：已作者交付待回执。
+
+- [OPS subject exact-token style reference](docs/style/ops-subject-model-style-ref.md): Apps-authorized public mirror with three synthetic PNGs; Blender PBR remains untested.
