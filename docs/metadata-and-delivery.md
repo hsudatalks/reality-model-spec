@@ -1,6 +1,6 @@
 # 元数据与交付
 
-本页参考日期 **2026-11-04**，适用于 **modelABI 1.0 当前静态母版输入**。12 个必需键位于 **GLB JSON 顶层 `extras.modelABI`**，不是节点 extras。外部元数据保持一致，但不能代替 GLB 内嵌 ABI；此参考不提供完整消费语义 schema。
+本页参考日期 **2026-11-04**，下列12键是 **modelABI 1.0 内嵌声明及 ISO 派生输入参考**，位于 **GLB JSON 顶层 `extras.modelABI`**，不是节点 extras。它不是所有 generic-original adopt 路径的统一拒收条件；各路径以正式钉版工具合同为准。本参考不提供完整消费语义 schema。
 
 ## 完整 12 键 ABI 参考
 
@@ -85,7 +85,15 @@
 
 不得冒用他人的作者身份或将未知许可写成自有作品、公共领域或任意开源许可。权利声明覆盖模型、贴图、参考资料与依赖的实际范围；本公开文档不替任何模型授权。
 
-缺内嵌 ABI 时由作者提供新的无损元数据修订 GLB，附新字节数、SHA-256、修订身份和变更说明，保留旧原件。不能用 sidecar 或消费端 adapter 冒充已补齐内嵌 ABI，也不预造尚未生成的 runtime SHA 或派生回执。
+缺内嵌 ABI 是观察事实，不能直接当成所有路径的正式工具拒收。只有实际适用合同要求内嵌修订时，才由作者提供新的无损元数据 GLB、字节/SHA和修订说明，并保留旧原件；不得把外部声明说成已补内嵌 ABI，也不预造 runtime SHA 或派生回执。
+
+## Generic originals：正式 adopt 的外部声明路径
+
+已发布 `@univers/asset-intake@0.0.1-dev.utpub3.1`（source `27b0ece366ecb60bfb0a5c7eb851e7c7e225cd43`，包SHA256 `59f0266bd6e662a6e12c82058f2d06e46ede2ec303297dc549a0f7f689b7853a`）的 `package/README.md` §Explicit anchors and generic originals（249–281行）区分两条路径：ISO20/40 derive.profile沿用ISO流程；其他generic-original通过原字节自包含GLB及外部作者声明进入已有隐藏DRAFT路径。
+
+该合同明确：给定真实explicit anchor及作者 `abi` frame 时，没有顶层 `extras.modelABI` 的静态原件可使用该外部坐标声明，无需重写母版，也不宣称完整contact/gauge/socket/消费ABI。已有embedded ABI仍检查其frame和身份；外部声明不能与之冲突。该能力不实现消费端placement或业务绑定。未声明LOD在此原件adopt路径默认为master，不据此要求作者造runtime。
+
+因此，缺顶层ABI的generic原件先保留，登记 `formal_intake_metadata_requirements_pending_tool_check`，核具体路径所需的作者身份/kind/许可/外部frame/anchor等；没有实际适用的正式输入合同或工具拒收证据，不增GLB返工门槛、不造unknown字段。文档观察或格式报告不等于preflight通过。外部元数据确实缺少的真实作者声明仍需最小补齐，不能由管理者推造值。此处不提供新资产命令、不扩大运行/发布授权，也不要求重复adopt或发布测试。
 
 ## 轻量交付检查与反馈
 
