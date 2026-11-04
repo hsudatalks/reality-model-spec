@@ -70,3 +70,4 @@
 - [工业设备通用 BOM brief 索引](docs/briefs/industrial-bom/INDEX.md)：24 类共 365 行，另附合成 stacker；尺寸为设计范围、参考单位未验证，动作接口为候选，非已批准消费契约。公开文档不授予母版或参考资产的额外许可。
 
 - [通用滚筒输送机参数母版 brief](docs/briefs/factory-roller-conveyor-parametric.md)：仅3m/4m两组合成参数候选，任务待作者ACK、最终链契约待pin。
+- [通用双出口分选机参数母版 brief](docs/briefs/factory-sorter-parametric.md)：固定外框、两个出口间距参数集，Legion待ACK；非已实现OK/NG业务。
