@@ -50,3 +50,5 @@
 - [经授权参考 GLB 发布流程](docs/reference-exports.md)：Releases 参考文件与 Library 生产资产区分；目前仅准备流程。
 
 - [通用室内服务机器人静态母版 brief](docs/briefs/social-service-robot-static.md)：原创合成、用于总览及点击聚焦；正式 kind/状态绑定由消费方确认。
+
+- [通用 ISO40 运输 AGV 静态母版 brief](docs/briefs/social-agv-static.md)：原创合成、无驾驶室；甲板和轮组静态分件，正式载荷/挂接接口待消费方确认。
