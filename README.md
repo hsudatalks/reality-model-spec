@@ -52,3 +52,6 @@
 - [通用室内服务机器人静态母版 brief](docs/briefs/social-service-robot-static.md)：原创合成、用于总览及点击聚焦；正式 kind/状态绑定由消费方确认。
 
 - [紧凑通用 AMR／AGV 静态母版 brief](docs/briefs/social-agv-static.md)：原创合成、0.8×0.6×1.2m室内移动机器人；两个消费角色共用，正式载荷/状态接口待确认。
+
+- [通用智能寄存柜静态 brief](docs/briefs/social-smart-cabinet-static.md)：原创合成静态范围。
+- [通用充电坞静态 brief](docs/briefs/social-charging-dock-static.md)：原创合成静态范围。
